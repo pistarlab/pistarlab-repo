@@ -1,0 +1,653 @@
+{
+  "env_specs": [
+    {
+      "spec_id": "pettingzoo.classic.chess_v2",
+      "displayed_name": "pettingzoo.classic.chess_v2",
+      "description": null,
+      "entry_point": "pettingzoo.classic.chess_v2:env",
+      "version": "0.0.1-dev",
+      "disabled": false,
+      "env_type": "RL_MULTIPLAYER_ENV",
+      "tags": [],
+      "categories": [
+        "classic"
+      ],
+      "environment_id": "pettingzoo.classic.chess_v2",
+      "environment_displayed_name": "pettingzoo.classic.chess_v2",
+      "metadata": {
+        "image_filename": "pettingzoo.classic.chess_v2.jpg",
+        "render.modes": [
+          "human",
+          "ansi",
+          "ansi"
+        ],
+        "render.fps": 30,
+        "render_mode": "stdout",
+        "render_stats": false,
+        "observation_spaces": {
+          "player_0": {
+            "class_name": "Dict",
+            "module": "gym.spaces.dict",
+            "kwargs": {
+              "spaces": {
+                "action_mask": {
+                  "class_name": "Box",
+                  "module": "gym.spaces.box",
+                  "kwargs": {
+                    "shape": {
+                      "__type": "tuple",
+                      "values": [
+                        4672
+                      ]
+                    },
+                    "low": 0.0,
+                    "high": 1.0
+                  },
+                  "args": []
+                },
+                "observation": {
+                  "class_name": "Box",
+                  "module": "gym.spaces.box",
+                  "kwargs": {
+                    "shape": {
+                      "__type": "tuple",
+                      "values": [
+                        8,
+                        8,
+                        20
+                      ]
+                    },
+                    "low": 0.0,
+                    "high": 1.0
+                  },
+                  "args": []
+                }
+              }
+            },
+            "args": []
+          },
+          "player_1": {
+            "class_name": "Dict",
+            "module": "gym.spaces.dict",
+            "kwargs": {
+              "spaces": {
+                "action_mask": {
+                  "class_name": "Box",
+                  "module": "gym.spaces.box",
+                  "kwargs": {
+                    "shape": {
+                      "__type": "tuple",
+                      "values": [
+                        4672
+                      ]
+                    },
+                    "low": 0.0,
+                    "high": 1.0
+                  },
+                  "args": []
+                },
+                "observation": {
+                  "class_name": "Box",
+                  "module": "gym.spaces.box",
+                  "kwargs": {
+                    "shape": {
+                      "__type": "tuple",
+                      "values": [
+                        8,
+                        8,
+                        20
+                      ]
+                    },
+                    "low": 0.0,
+                    "high": 1.0
+                  },
+                  "args": []
+                }
+              }
+            },
+            "args": []
+          }
+        },
+        "action_spaces": {
+          "player_0": {
+            "class_name": "Discrete",
+            "module": "gym.spaces.discrete",
+            "kwargs": {},
+            "args": [
+              4672
+            ]
+          },
+          "player_1": {
+            "class_name": "Discrete",
+            "module": "gym.spaces.discrete",
+            "kwargs": {},
+            "args": [
+              4672
+            ]
+          }
+        },
+        "num_players": 2,
+        "max_num_players": 2,
+        "players": [
+          "player_0",
+          "player_1"
+        ],
+        "possible_players": [
+          "player_0",
+          "player_1"
+        ]
+      },
+      "config": {
+        "default_render_mode": "stdout",
+        "env_kwargs": {},
+        "default_wrappers": [
+          {
+            "entry_point": "pistarlab_petting_zoo.wrappers:PettingZooAECWrapper",
+            "kwargs": {}
+          }
+        ]
+      }
+    },
+    {
+      "spec_id": "pettingzoo.butterfly.cooperative_pong_v2",
+      "displayed_name": "pettingzoo.butterfly.cooperative_pong_v2",
+      "description": null,
+      "entry_point": "pettingzoo.butterfly.cooperative_pong_v2:env",
+      "version": "0.0.1-dev",
+      "disabled": false,
+      "env_type": "RL_MULTIPLAYER_ENV",
+      "tags": [],
+      "categories": [
+        "butterfly"
+      ],
+      "environment_id": "pettingzoo.butterfly.cooperative_pong_v2",
+      "environment_displayed_name": "pettingzoo.butterfly.cooperative_pong_v2",
+      "metadata": {
+        "image_filename": "pettingzoo.butterfly.cooperative_pong_v2.jpg",
+        "render.modes": [
+          "human",
+          "rgb_array"
+        ],
+        "render.fps": 30,
+        "render_mode": "rgb_array",
+        "render_stats": false,
+        "observation_spaces": {
+          "paddle_0": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  280,
+                  240,
+                  3
+                ]
+              },
+              "low": 0.0,
+              "high": 255.0
+            },
+            "args": []
+          },
+          "paddle_1": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  280,
+                  240,
+                  3
+                ]
+              },
+              "low": 0.0,
+              "high": 255.0
+            },
+            "args": []
+          }
+        },
+        "action_spaces": {
+          "paddle_0": {
+            "class_name": "Discrete",
+            "module": "gym.spaces.discrete",
+            "kwargs": {},
+            "args": [
+              3
+            ]
+          },
+          "paddle_1": {
+            "class_name": "Discrete",
+            "module": "gym.spaces.discrete",
+            "kwargs": {},
+            "args": [
+              3
+            ]
+          }
+        },
+        "num_players": 2,
+        "max_num_players": 2,
+        "players": [
+          "paddle_0",
+          "paddle_1"
+        ],
+        "possible_players": [
+          "paddle_0",
+          "paddle_1"
+        ]
+      },
+      "config": {
+        "default_render_mode": "rgb_array",
+        "env_kwargs": {},
+        "default_wrappers": [
+          {
+            "entry_point": "pistarlab_petting_zoo.wrappers:PettingZooAECWrapper",
+            "kwargs": {}
+          }
+        ]
+      }
+    },
+    {
+      "spec_id": "pettingzoo.butterfly.prison_v2",
+      "displayed_name": "pettingzoo.butterfly.prison_v2",
+      "description": null,
+      "entry_point": "pettingzoo.butterfly.prison_v2:env",
+      "version": "0.0.1-dev",
+      "disabled": false,
+      "env_type": "RL_MULTIPLAYER_ENV",
+      "tags": [],
+      "categories": [
+        "butterfly"
+      ],
+      "environment_id": "pettingzoo.butterfly.prison_v2",
+      "environment_displayed_name": "pettingzoo.butterfly.prison_v2",
+      "metadata": {
+        "image_filename": "pettingzoo.butterfly.prison_v2.jpg",
+        "render.modes": [
+          "human",
+          "rgb_array"
+        ],
+        "render.fps": 30,
+        "render_mode": "rgb_array",
+        "render_stats": false,
+        "observation_spaces": {
+          "prisoner_0": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  100,
+                  300,
+                  3
+                ]
+              },
+              "low": 0.0,
+              "high": 255.0
+            },
+            "args": []
+          },
+          "prisoner_1": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  100,
+                  300,
+                  3
+                ]
+              },
+              "low": 0.0,
+              "high": 255.0
+            },
+            "args": []
+          },
+          "prisoner_2": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  100,
+                  300,
+                  3
+                ]
+              },
+              "low": 0.0,
+              "high": 255.0
+            },
+            "args": []
+          },
+          "prisoner_3": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  100,
+                  300,
+                  3
+                ]
+              },
+              "low": 0.0,
+              "high": 255.0
+            },
+            "args": []
+          },
+          "prisoner_4": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  100,
+                  300,
+                  3
+                ]
+              },
+              "low": 0.0,
+              "high": 255.0
+            },
+            "args": []
+          },
+          "prisoner_5": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  100,
+                  300,
+                  3
+                ]
+              },
+              "low": 0.0,
+              "high": 255.0
+            },
+            "args": []
+          },
+          "prisoner_6": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  100,
+                  300,
+                  3
+                ]
+              },
+              "low": 0.0,
+              "high": 255.0
+            },
+            "args": []
+          },
+          "prisoner_7": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  100,
+                  300,
+                  3
+                ]
+              },
+              "low": 0.0,
+              "high": 255.0
+            },
+            "args": []
+          }
+        },
+        "action_spaces": {
+          "prisoner_0": {
+            "class_name": "Discrete",
+            "module": "gym.spaces.discrete",
+            "kwargs": {},
+            "args": [
+              3
+            ]
+          },
+          "prisoner_1": {
+            "class_name": "Discrete",
+            "module": "gym.spaces.discrete",
+            "kwargs": {},
+            "args": [
+              3
+            ]
+          },
+          "prisoner_2": {
+            "class_name": "Discrete",
+            "module": "gym.spaces.discrete",
+            "kwargs": {},
+            "args": [
+              3
+            ]
+          },
+          "prisoner_3": {
+            "class_name": "Discrete",
+            "module": "gym.spaces.discrete",
+            "kwargs": {},
+            "args": [
+              3
+            ]
+          },
+          "prisoner_4": {
+            "class_name": "Discrete",
+            "module": "gym.spaces.discrete",
+            "kwargs": {},
+            "args": [
+              3
+            ]
+          },
+          "prisoner_5": {
+            "class_name": "Discrete",
+            "module": "gym.spaces.discrete",
+            "kwargs": {},
+            "args": [
+              3
+            ]
+          },
+          "prisoner_6": {
+            "class_name": "Discrete",
+            "module": "gym.spaces.discrete",
+            "kwargs": {},
+            "args": [
+              3
+            ]
+          },
+          "prisoner_7": {
+            "class_name": "Discrete",
+            "module": "gym.spaces.discrete",
+            "kwargs": {},
+            "args": [
+              3
+            ]
+          }
+        },
+        "num_players": 8,
+        "max_num_players": 8,
+        "players": [
+          "prisoner_0",
+          "prisoner_1",
+          "prisoner_2",
+          "prisoner_3",
+          "prisoner_4",
+          "prisoner_5",
+          "prisoner_6",
+          "prisoner_7"
+        ],
+        "possible_players": [
+          "prisoner_0",
+          "prisoner_1",
+          "prisoner_2",
+          "prisoner_3",
+          "prisoner_4",
+          "prisoner_5",
+          "prisoner_6",
+          "prisoner_7"
+        ]
+      },
+      "config": {
+        "default_render_mode": "rgb_array",
+        "env_kwargs": {},
+        "default_wrappers": [
+          {
+            "entry_point": "pistarlab_petting_zoo.wrappers:PettingZooAECWrapper",
+            "kwargs": {}
+          }
+        ]
+      }
+    },
+    {
+      "spec_id": "pettingzoo.sisl.multiwalker_v6",
+      "displayed_name": "pettingzoo.sisl.multiwalker_v6",
+      "description": null,
+      "entry_point": "pettingzoo.sisl.multiwalker_v6:env",
+      "version": "0.0.1-dev",
+      "disabled": false,
+      "env_type": "RL_MULTIPLAYER_ENV",
+      "tags": [],
+      "categories": [
+        "sisl"
+      ],
+      "environment_id": "pettingzoo.sisl.multiwalker_v6",
+      "environment_displayed_name": "pettingzoo.sisl.multiwalker_v6",
+      "metadata": {
+        "image_filename": "pettingzoo.sisl.multiwalker_v6.jpg",
+        "render.modes": [
+          "human",
+          "rgb_array"
+        ],
+        "render.fps": 30,
+        "render_mode": "rgb_array",
+        "render_stats": false,
+        "observation_spaces": {
+          "walker_0": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  31
+                ]
+              },
+              "low": -1e+100,
+              "high": 1e+100
+            },
+            "args": []
+          },
+          "walker_1": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  31
+                ]
+              },
+              "low": -1e+100,
+              "high": 1e+100
+            },
+            "args": []
+          },
+          "walker_2": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  31
+                ]
+              },
+              "low": -1e+100,
+              "high": 1e+100
+            },
+            "args": []
+          }
+        },
+        "action_spaces": {
+          "walker_0": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  4
+                ]
+              },
+              "low": -1.0,
+              "high": 1.0
+            },
+            "args": []
+          },
+          "walker_1": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  4
+                ]
+              },
+              "low": -1.0,
+              "high": 1.0
+            },
+            "args": []
+          },
+          "walker_2": {
+            "class_name": "Box",
+            "module": "gym.spaces.box",
+            "kwargs": {
+              "shape": {
+                "__type": "tuple",
+                "values": [
+                  4
+                ]
+              },
+              "low": -1.0,
+              "high": 1.0
+            },
+            "args": []
+          }
+        },
+        "num_players": 3,
+        "max_num_players": 3,
+        "players": [
+          "walker_0",
+          "walker_1",
+          "walker_2"
+        ],
+        "possible_players": [
+          "walker_0",
+          "walker_1",
+          "walker_2"
+        ]
+      },
+      "config": {
+        "default_render_mode": "rgb_array",
+        "env_kwargs": {},
+        "default_wrappers": [
+          {
+            "entry_point": "pistarlab_petting_zoo.wrappers:PettingZooAECWrapper",
+            "kwargs": {}
+          }
+        ]
+      }
+    }
+  ]
+}

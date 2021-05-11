@@ -1,0 +1,40 @@
+[
+    {
+        "id": "pistarlab-agents-stable-baselines",
+        "version": "0.0.1-dev",
+        "name": "Stable Baseline Agents 3",
+        "categories": [
+            "agents"
+        ],
+        "description": "Agents from Stable baseline agent 3  https://stable-baselines3.readthedocs.io/en/master/",
+        "plugin_author": "piSTAR Lab",
+        "original_author": "Raffin, Antonin and Hill, Ashley et al. - https://github.com/DLR-RM/stable-baselines3",
+        "type" :"rpath+whl"
+    },
+    {
+        "id": "pistarlab-petting-zoo",
+        "version": "0.0.1-dev",
+        "name": "Petting Zoo",
+        "categories": [
+            "envs"
+        ],
+        "description": "Multi Agent Environment Repository :https://github.com/ray-project/ray/blob/master/rllib/env/pettingzoo_env.py",
+        "plugin_author": "piSTAR Lab",
+        "original_author": "Justin Terry, et al. - https://www.pettingzoo.ml/",
+        "type" :"rpath+whl",
+        "path": "repo/pistarlab_petting_zoo-0.0.1.dev0-py3-none-any.whl"
+    },
+    {
+        "id": "pistarlab-envs-minecraft",
+        "version": "0.0.1-dev",
+        "name": "MineRL",
+        "hidden": true,
+        "categories": [
+            "envs"
+        ],
+        "description": "Minecraft RL environment. See: https://minerl.io/docs/tutorials/index.html.  Requires OpenJDK Java 8",
+        "plugin_author": "piSTAR Lab",
+        "original_author": "Miner Labs - https://minerl.io/docs/tutorials/index.html",
+        "type" :"rpath+whl"
+    }
+]
