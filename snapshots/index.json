@@ -1,0 +1,39 @@
+{
+  "entries": {
+    "agent_stable_baselines_PPO_default_0x7554a16a_0-dev": {
+      "entity_type": "agent",
+      "spec_id": "stable_baselines_PPO",
+      "id": "A-6",
+      "seed": "0x7554a16a",
+      "meta": {
+        "spec_version": "0.0.1-dev",
+        "spec_plugin_id": "pistarlab-stable-baselines",
+        "spec_plugin_version": "0.0.1-dev"
+      },
+      "config": {
+        "model_args": {},
+        "policy": "MlpPolicy",
+        "policy_kwargs": {},
+        "agent_cls_name": "PPO",
+        "interfaces": {
+          "run": {
+            "interface_id": "run",
+            "interface_type": "rl",
+            "auto_config_spaces": true,
+            "observation_space": null,
+            "action_space": null
+          }
+        },
+        "components": null
+      },
+      "submitter_id": "default",
+      "creation_time": "2021-05-14 10:46:37.085173",
+      "snapshot_version": "0-dev",
+      "snapshot_description": "",
+      "path": "agent/stable_baselines_PPO",
+      "file_prefix": "default__0x7554a16a_v0-dev",
+      "snapshot_id": "agent_stable_baselines_PPO_default_0x7554a16a_0-dev",
+    }
+  },
+  "creation_time": "2021-05-14 10:46:37.138821"
+}

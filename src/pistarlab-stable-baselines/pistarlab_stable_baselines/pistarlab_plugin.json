@@ -1,0 +1,11 @@
+{
+    "id": "pistarlab-stable-baselines",
+    "version": "0.0.1-dev",
+    "name": "Stable Baseline 3",
+    "categories": [
+        "agents"
+    ],
+    "description": "Agents from Stable baseline agent 3  https://stable-baselines3.readthedocs.io/en/master/",
+    "plugin_author": "piSTAR Lab",
+    "original_author": "Raffin, Antonin and Hill, Ashley et al. - https://github.com/DLR-RM/stable-baselines3"
+}

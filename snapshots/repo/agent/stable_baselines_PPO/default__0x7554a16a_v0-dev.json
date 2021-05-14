@@ -1,0 +1,78 @@
+{
+  "id": "A-6",
+  "seed": "0x7554a16a",
+  "entity_type": "agent",
+  "spec_id": "stable_baselines_PPO",
+  "submitter_id": "default",
+  "creation_time": "2021-05-14 10:46:37.085173",
+  "meta": {
+    "spec_version": "0.0.1-dev",
+    "spec_plugin_id": "pistarlab-stable-baselines",
+    "spec_plugin_version": "0.0.1-dev"
+  },
+  "notes": null,
+  "last_checkpoint": {
+    "id": "20210513-203816-219_m87_521313",
+    "meta": {}
+  },
+  "snapshot_description": "",
+  "snapshot_version": "0-dev",
+  "session_data": [
+    {
+      "env_spec_id": "LunarLander-v2",
+      "env_spec_version": null,
+      "env_spec_config": null,
+      "summary": {
+        "runtime": 2886.8647379875183,
+        "step_count": 933588,
+        "reward_total": 384610.4973491995,
+        "episode_count": 2520,
+        "episode_step_count": 13,
+        "episode_reward_total": 13.025798016783774,
+        "reward_mean_windowed": 1.001984462836005,
+        "step_latency_mean_windowed": 0.0,
+        "episode_reward_total_windowed": 254.95567190346168,
+        "best_ep_reward_total": 301.53151272513975,
+        "best_ep_reward_total_ep_count": 1901,
+        "best_ep_reward_mean_windowed": 294.55811116787106,
+        "best_ep_reward_mean_windowed_ep_count": 2479
+      }
+    },
+    {
+      "env_spec_id": "LunarLander-v2",
+      "env_spec_version": null,
+      "env_spec_config": null,
+      "summary": {
+        "runtime": 75.75450563430786,
+        "step_count": 40961,
+        "reward_total": 22293.6834036508,
+        "episode_count": 105,
+        "episode_step_count": 122,
+        "episode_reward_total": 59.26031797435866,
+        "reward_mean_windowed": 0.1780089097119344,
+        "step_latency_mean_windowed": 0.0,
+        "episode_reward_total_windowed": 253.52999432930076,
+        "best_ep_reward_total": 294.236395618864,
+        "best_ep_reward_total_ep_count": 41,
+        "best_ep_reward_mean_windowed": 284.5906608974035,
+        "best_ep_reward_mean_windowed_ep_count": 41
+      }
+    }
+  ],
+  "config": {
+    "model_args": {},
+    "policy": "MlpPolicy",
+    "policy_kwargs": {},
+    "agent_cls_name": "PPO",
+    "interfaces": {
+      "run": {
+        "interface_id": "run",
+        "interface_type": "rl",
+        "auto_config_spaces": true,
+        "observation_space": null,
+        "action_space": null
+      }
+    },
+    "components": null
+  }
+}

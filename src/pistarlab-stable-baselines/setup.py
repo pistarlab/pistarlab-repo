@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="pistarlab-agents-stable-baselines",
+    name="pistarlab-stable-baselines",
     version="0.0.1-dev",
     author="",
     author_email="",
@@ -10,7 +10,7 @@ setup(
     url="https://github.com/pistarlab/pistarlab/plugins",
     license='',
     install_requires=['stable-baselines3'],
-    package_data={'pistarlab-agents-stable-baselines': ['README.md']
+    package_data={'pistarlab-stable-baselines': ['README.md']
       },
     packages=find_packages(),
     classifiers=[

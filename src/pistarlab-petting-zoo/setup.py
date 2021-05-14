@@ -15,7 +15,7 @@ setup(
     install_requires=[
         'pettingzoo==1.5.0',
         'autorom','multi_agent_ale_py','chess','magent'],
-    package_data={'pistarlab_petting_zoo': ['README.md',"*.json","*.jpg", "manifest_files", "manifest.json"] + manifest_files
+    package_data={'pistarlab_petting_zoo': ['README.md',"*.json","*.jpg", "manifest_files", "manifest.json","pistarlab_plugin.json"] + manifest_files
       },
     packages=find_packages(),
     entry_points={ },
