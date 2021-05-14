@@ -32,7 +32,7 @@
       "snapshot_description": "",
       "path": "agent/stable_baselines_PPO",
       "file_prefix": "default__0x7554a16a_v0-dev",
-      "snapshot_id": "agent_stable_baselines_PPO_default_0x7554a16a_0-dev",
+      "snapshot_id": "agent_stable_baselines_PPO_default_0x7554a16a_0-dev"
     }
   },
   "creation_time": "2021-05-14 10:46:37.138821"
