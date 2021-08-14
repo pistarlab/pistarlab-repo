@@ -6,8 +6,8 @@ setup(
     author="piSTAR",
     author_email="pistar3.14@gmail.com",
     description="https://github.com/maximecb/gym-minigrid",
-    long_description='This is a pistarlab plugin',
-    url="https://github.com/pistarlab/pistarlab/plugins",
+    long_description='This is a pistarlab extension',
+    url="https://github.com/pistarlab/pistarlab/extensions",
     license='',
     install_requires=['gym-minigrid'],
     package_data={'pistarlab-envs-gym-minigrid': ['README.md']

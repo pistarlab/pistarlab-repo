@@ -6,8 +6,8 @@ setup(
     author="",
     author_email="",
     description="Stable Baselines",
-    long_description='This is a pistarlab plugin',
-    url="https://github.com/pistarlab/pistarlab/plugins",
+    long_description='This is a pistarlab extension',
+    url="https://github.com/pistarlab/pistarlab/extensions",
     license='',
     install_requires=['stable-baselines3'],
     package_data={'pistarlab-stable-baselines': ['README.md']

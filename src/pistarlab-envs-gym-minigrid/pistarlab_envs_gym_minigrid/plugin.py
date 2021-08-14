@@ -1,8 +1,8 @@
 import logging
 from pistarlab import ctx
 
-PLUGIN_ID = "pistarlab-envs-gym-minigrid"
-PLUGIN_VERSION = "0.0.1-dev"
+EXTENSION_ID = "pistarlab-envs-gym-minigrid"
+EXTENSION_VERSION = "0.0.1-dev"
 
 from pistarlab.utils.gym_importer import get_env_specs_from_gym_registry
 
@@ -15,7 +15,7 @@ def manifest():
     return {'env_specs': spec_list}
 
 def install():
-    ctx.install_plugin_from_manifest(PLUGIN_ID,PLUGIN_VERSION)
+    ctx.install_extension_from_manifest(EXTENSION_ID,EXTENSION_VERSION)
     return True
 
 def load():
@@ -23,6 +23,6 @@ def load():
     return True
 
 def uninstall():
-    logging.info("Uninstalling {}".format(PLUGIN_ID))
-    ctx.disable_plugin_by_id(PLUGIN_ID)
+    logging.info("Uninstalling {}".format(EXTENSION_ID))
+    ctx.disable_extension_by_id(EXTENSION_ID)
     return True

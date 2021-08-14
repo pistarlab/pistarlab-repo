@@ -7,8 +7,8 @@
       "seed": "0x7554a16a",
       "meta": {
         "spec_version": "0.0.1-dev",
-        "spec_plugin_id": "pistarlab-stable-baselines",
-        "spec_plugin_version": "0.0.1-dev"
+        "spec_extension_id": "pistarlab-stable-baselines",
+        "spec_extension_version": "0.0.1-dev"
       },
       "config": {
         "model_args": {},

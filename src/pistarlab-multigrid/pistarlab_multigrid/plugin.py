@@ -1,6 +1,6 @@
 import logging
 
-PLUGIN_ID = "pistarlab-multigrid"
+EXTENSION_ID = "pistarlab-multigrid"
 
 def install():
     
@@ -9,7 +9,7 @@ def install():
     import gym_multigrid
     from pistarlab.utils.env_helpers import add_gym_envs_from_registry    
     add_gym_envs_from_registry(
-        plugin_id=PLUGIN_ID,
+        extension_id=EXTENSION_ID,
         entry_point_prefix="gym_multigrid.envs",
         overwrite=False,
         max_count = 300,
@@ -28,6 +28,6 @@ def uninstall():
     logging.info("Uninstalling minigrid")
     from pistarlab.dbmodels import EnvSpec
     from pistarlab import ctx
-    ctx.disable_plugin_by_id(PLUGIN_ID)
+    ctx.disable_extension_by_id(EXTENSION_ID)
 
     return True

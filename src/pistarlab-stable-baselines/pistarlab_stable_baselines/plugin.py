@@ -7,8 +7,8 @@ from pistarlab.utils.param_helpers import create_params_from_dict
 
 from pistarlab.utils.agent_helpers import get_agent_spec_dict,get_agent_spec_interface_dict
 
-PLUGIN_ID = "pistarlab-stable-baselines"
-PLUGIN_VERSION = "0.0.1-dev"
+EXTENSION_ID = "pistarlab-stable-baselines"
+EXTENSION_VERSION = "0.0.1-dev"
 
 def get_agent_specs():
     spec_list = []
@@ -53,10 +53,10 @@ def get_agent_specs():
 
 
 def install():
-    logging.info("Installing: {}".format(PLUGIN_ID))
+    logging.info("Installing: {}".format(EXTENSION_ID))
     from pistarlab import ctx
     for spec in get_agent_specs():
-        ctx.register_agent_spec(**spec, plugin_id=PLUGIN_ID, plugin_version=PLUGIN_VERSION)
+        ctx.register_agent_spec(**spec, extension_id=EXTENSION_ID, extension_version=EXTENSION_VERSION)
 
     return True
 
@@ -66,5 +66,5 @@ def load():
 
 def uninstall():
     from pistarlab import ctx
-    ctx.disable_plugin_by_id(PLUGIN_ID)
+    ctx.disable_extension_by_id(EXTENSION_ID)
     return True

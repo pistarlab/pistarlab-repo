@@ -126,8 +126,8 @@ render_type =  {
     "sisl":"rgb_array"
 }
 
-PLUGIN_ID = "pistarlab-petting-zoo"
-PLUGIN_VERSION = "0.0.1-dev"
+EXTENSION_ID = "pistarlab-petting-zoo"
+EXTENSION_VERSION = "0.0.1-dev"
 
 from pistarlab.utils.env_helpers import get_env_spec_data
 
@@ -151,12 +151,12 @@ def manifest():
     return {'env_specs': get_env_specs()}
 
 def install():
-    ctx.install_plugin_from_manifest(PLUGIN_ID,PLUGIN_VERSION)           
+    ctx.install_extension_from_manifest(EXTENSION_ID,EXTENSION_VERSION)           
     return True
 
 def load():
     return True
 
 def uninstall():
-    ctx.disable_plugin_by_id(PLUGIN_ID)
+    ctx.disable_extension_by_id(EXTENSION_ID)
     return True

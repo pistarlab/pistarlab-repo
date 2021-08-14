@@ -6,7 +6,7 @@
         "envs"
     ],
     "description": "Multi Agent Environment Repository :https://github.com/ray-project/ray/blob/master/rllib/env/pettingzoo_env.py",
-    "plugin_author": "piSTAR Lab",
+    "extension_author": "piSTAR Lab",
     "original_author": "Justin Terry, et al. - https://www.pettingzoo.ml/",
     "type" :"rpath+whl",
     "path": "repo/pistarlab_petting_zoo-0.0.1.dev0-py3-none-any.whl"

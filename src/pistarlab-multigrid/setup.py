@@ -6,8 +6,8 @@ setup(
     author="Original: Fickinger, Arnaud; importted by piSTAR",
     author_email="pistar3.14@gmail.com",
     description="Original Env https://github.com/ArnaudFickinger/gym-multigrid",
-    long_description='This is a pistarlab plugin',
-    url="https://github.com/pistarlab/pistarlab/plugins",
+    long_description='This is a pistarlab extension',
+    url="https://github.com/pistarlab/pistarlab/extensions",
     license='',
     install_requires=[''],
     package_data={'pistarlab-multigrid': ['README.md']
