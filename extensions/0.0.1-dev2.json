@@ -12,6 +12,18 @@
         "type" :"rpath+whl"
     },
     {
+        "id": "pistarlab-landia",
+        "version": "0.0.1-dev",
+        "name": "Landia Environments",
+        "categories": [
+            "envs"
+        ],
+        "description": "see http://github.com/pistarlab/landia",
+        "extension_author": "piSTAR Lab",
+        "original_author": "Brandyn Kusenda - http://github.com/pistarlab/landia",
+        "type" :"rpath+whl"
+    },
+    {
         "id": "pistarlab-petting-zoo",
         "version": "0.0.1-dev",
         "name": "Petting Zoo",

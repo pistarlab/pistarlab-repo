@@ -1,3 +1,4 @@
+from pistarlab.utils.env_helpers import get_env_spec_data, get_environment_data
 from pistarlab.meta import RL_MULTIPLAYER_ENV
 from pistarlab.wrappers import default
 import gym
@@ -27,26 +28,26 @@ from pistarlab import ctx
 # from pettingzoo.atari import wizard_of_wor_v2 as wizard_of_wor
 # from pettingzoo.atari import warlords_v2 as warlords
 
-from pettingzoo.classic import chess_v2 as chess
-from pettingzoo.classic import rps_v1 as rps
-from pettingzoo.classic import rpsls_v1  as rpsls
-from pettingzoo.classic import connect_four_v1 as connect_four
-from pettingzoo.classic import tictactoe_v1 as tictactoe
-from pettingzoo.classic import leduc_holdem_v1 as leduc_holdem
-from pettingzoo.classic import mahjong_v1 as mahjong
-from pettingzoo.classic import texas_holdem_v1 as texas_holdem
-from pettingzoo.classic import texas_holdem_no_limit_v1 as texas_holdem_no_limit
-from pettingzoo.classic import uno_v1 as uno
-from pettingzoo.classic import dou_dizhu_v1 as dou_dizhu
-from pettingzoo.classic import gin_rummy_v1 as gin_rummy
-from pettingzoo.classic import go_v1 as go
-from pettingzoo.classic import hanabi_v1 as hanabi
-from pettingzoo.classic import backgammon_v1 as backgammon
+from pettingzoo.classic import chess_v2
+# from pettingzoo.classic import rps_v1 as rps
+# from pettingzoo.classic import rpsls_v1  as rpsls
+# from pettingzoo.classic import connect_four_v1 as connect_four
+# from pettingzoo.classic import tictactoe_v1 as tictactoe
+# from pettingzoo.classic import leduc_holdem_v1 as leduc_holdem
+# from pettingzoo.classic import mahjong_v1 as mahjong
+# from pettingzoo.classic import texas_holdem_v1 as texas_holdem
+# from pettingzoo.classic import texas_holdem_no_limit_v1 as texas_holdem_no_limit
+# from pettingzoo.classic import uno_v1 as uno
+# from pettingzoo.classic import dou_dizhu_v1 as dou_dizhu
+# from pettingzoo.classic import gin_rummy_v1 as gin_rummy
+# from pettingzoo.classic import go_v1 as go
+# from pettingzoo.classic import hanabi_v1 as hanabi
+# from pettingzoo.classic import backgammon_v1 as backgammon
 
 # from pettingzoo.butterfly import knights_archers_zombies_v0 as
 # from pettingzoo.butterfly import pistonball_v1
-from pettingzoo.butterfly import cooperative_pong_v2 as cooperative_pong
-from pettingzoo.butterfly import prison_v2 as prison
+from pettingzoo.butterfly import cooperative_pong_v2
+from pettingzoo.butterfly import prison_v2
 
 # from pettingzoo.magent import battle_v2
 # from pettingzoo.magent import adversarial_pursuit_v1
@@ -56,9 +57,9 @@ from pettingzoo.butterfly import prison_v2 as prison
 # from pettingzoo.magent import battlefield_v1
 
 
-from pettingzoo.sisl import pursuit_v3 as pursuit
-from pettingzoo.sisl import waterworld_v3 as waterworld
-from pettingzoo.sisl import multiwalker_v6 as multiwalker
+# from pettingzoo.sisl import pursuit_v3
+# from pettingzoo.sisl import waterworld_v3
+from pettingzoo.sisl import multiwalker_v6
 
 all_prefixes = ["atari", "classic", "butterfly", "magent", "mpe", "sisl"]
 
@@ -85,7 +86,7 @@ all_environments = {
     # "atari/wizard_of_wor": wizard_of_wor,
     # "atari/warlords": warlords,
 
-    "classic/chess/AEC": chess,
+    "classic/chess/AEC": chess_v2,
     # "classic/rps": rps,
     # "classic/rpsls": rpsls,
     # "classic/connect_four": connect_four,
@@ -102,8 +103,8 @@ all_environments = {
     # "classic/backgammon": backgammon,
 
 
-    "butterfly/cooperative_pong/AEC": cooperative_pong,
-    "butterfly/prison/AEC": prison,
+    "butterfly/cooperative_pong/AEC": cooperative_pong_v2,
+    "butterfly/prison/AEC": prison_v2,
 
     # "magent/adversarial_pursuit": adversarial_pursuit_v1,
     # "magent/battle/AEC": battle_v2,
@@ -113,49 +114,65 @@ all_environments = {
     # "magent/tiger_deer": tiger_deer_v1,
 
 
-    "sisl/multiwalker/AEC": multiwalker,
+    "sisl/multiwalker/AEC": multiwalker_v6,
     # "sisl/waterworld": waterworld,
     # "sisl/pursuit/AEC": pursuit,
 }
 
-render_type =  {
-    'magent':"rgb_array",
-    'atari':"rgb_array",
-    "butterfly":"rgb_array",
-    "classic":"stdout",
-    "sisl":"rgb_array"
+render_type = {
+    'magent': "rgb_array",
+    'atari': "rgb_array",
+    "butterfly": "rgb_array",
+    "classic": "stdout",
+    "sisl": "rgb_array"
 }
 
 EXTENSION_ID = "pistarlab-petting-zoo"
 EXTENSION_VERSION = "0.0.1-dev"
 
-from pistarlab.utils.env_helpers import get_env_spec_data
 
-def get_env_specs():
-    spec_list = []
+def make_title(str):
+    return str.title().replace("_"," ").replace("."," ")
+
+def get_envs():
+    env_spec_list = []
     for mod_key, mod in all_environments.items():
-        category, game_name, env_type = mod_key.split("/")
+        tag, game_name, env_turn_type = mod_key.split("/")
+        
+ 
         spec = get_env_spec_data(
-            spec_id=mod.__name__, 
-            env_type=RL_MULTIPLAYER_ENV,
+            spec_id=f"{mod.__name__}",
             entry_point="{}:env".format(mod.__name__),
-            default_render_mode=render_type.get(category),
-            environment_id = mod.__name__,
-            categories=[category],
+            displayed_name=make_title(mod.__name__),
+            env_kwargs={},
+            env_type=RL_MULTIPLAYER_ENV,
+            tags=[tag],
             default_wrappers=[
-                {"entry_point":"pistarlab_petting_zoo.wrappers:PettingZooAECWrapper","kwargs":{}}])
-        spec_list.append(spec)
-    return spec_list
+                {"entry_point": "pistarlab_petting_zoo.wrappers:PettingZooAECWrapper", "kwargs": {}}],
+            default_render_mode=render_type.get(tag))
+        env_spec_list.append(spec)
+
+    env = get_environment_data(
+        environment_id="petting_zoo",
+        displayed_name="Petting Zoo",
+        categories=[],
+        env_specs=env_spec_list)
+
+    return [env]
+
 
 def manifest():
-    return {'env_specs': get_env_specs()}
+    return {'environments': get_envs()}
+
 
 def install():
-    ctx.install_extension_from_manifest(EXTENSION_ID,EXTENSION_VERSION)           
+    ctx.install_extension_from_manifest(EXTENSION_ID, EXTENSION_VERSION)
     return True
+
 
 def load():
     return True
+
 
 def uninstall():
     ctx.disable_extension_by_id(EXTENSION_ID)

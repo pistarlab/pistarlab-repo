@@ -1,5 +1,5 @@
 
-from pistarlab.utils.env_helpers import get_env_spec_data
+from pistarlab.utils.env_helpers import get_environment_data, get_env_spec_data
 import logging
 from pistarlab import ctx
 from pistarlab.meta import RL_MULTIPLAYER_ENV, RL_SINGLEPLAYER_ENV
@@ -13,6 +13,7 @@ def get_env_specs():
 
     spec = get_env_spec_data(
         displayed_name="Landia: Food Collector",
+        spec_displayed_name="Food Collector",
         spec_id='landia_food_collector',
         env_type=RL_MULTIPLAYER_ENV,
         env_kwargs={
@@ -30,14 +31,14 @@ def get_env_specs():
             }},
         entry_point="landia.env:LandiaEnv",
         default_render_mode='rgb_array',
-        environment_id="landia",
-        environment_displayed_name="Landia",
-        categories=[],
+        # environment_displayed_name="piSTAR Landia",
+        # categories=[],
         default_wrappers=[])
     spec_list.append(spec)
 
     spec = get_env_spec_data(
         displayed_name="Landia: Infection",
+        spec_displayed_name="Infection",
         spec_id='landia_infection',
         env_type=RL_MULTIPLAYER_ENV,
         env_kwargs={
@@ -49,20 +50,20 @@ def get_env_specs():
             "content_overrides": {
                 'active_controllers': ["pspawn", "objcollision", "infect1"],
                 "maps": {
-                    "main": {"static_layers": ['map_8x8_empty.txt']}
+                    "main": {"static_layers": ['map.txt']}
                 }}
         },
 
         entry_point="landia.env:LandiaEnv",
         default_render_mode='rgb_array',
-        environment_id="landia",
-        environment_displayed_name="Landia",
-        categories=[],
+        # environment_displayed_name="piSTAR Landia",
+        # categories=[],
         default_wrappers=[])
     spec_list.append(spec)
 
     spec = get_env_spec_data(
         displayed_name="Landia: Tag",
+        spec_displayed_name = "Tag",
         spec_id='landia_tag',
         env_type=RL_MULTIPLAYER_ENV,
         env_kwargs={
@@ -79,9 +80,8 @@ def get_env_specs():
             }},
         entry_point="landia.env:LandiaEnv",
         default_render_mode='rgb_array',
-        environment_id="landia",
-        environment_displayed_name="Landia",
-        categories=[],
+        # environment_displayed_name="piSTAR Landia",
+        # categories=[],
         default_wrappers=[])
     spec_list.append(spec)
 
@@ -108,7 +108,12 @@ def get_env_specs():
 
 
 def manifest():
-    return {'env_specs': get_env_specs()}
+    environment = get_environment_data(
+        environment_id="landia",
+        displayed_name="piSTAR Landia",
+        categories=[],
+        env_specs = get_env_specs() )
+    return {'environments':[environment]}
 
 
 def install():

@@ -1,21 +1,29 @@
 import logging
-
+from pistarlab.utils.env_helpers import get_environment_data, get_env_spec_data
 EXTENSION_ID = "pistarlab-multigrid"
+EXTENSION_VERSION = "0.0.1-dev"
 
-def install():
-    
-    # Original: https://github.com/ArnaudFickinger/gym-multigrid
-    logging.info("Installing")
+def manifest():
     import gym_multigrid
-    from pistarlab.utils.env_helpers import add_gym_envs_from_registry    
-    add_gym_envs_from_registry(
-        extension_id=EXTENSION_ID,
+    from pistarlab.utils.gym_importer import    get_environments_from_gym_registry 
+    envs = get_environments_from_gym_registry(
         entry_point_prefix="gym_multigrid.envs",
         overwrite=False,
         max_count = 300,
         default_wrappers=[
             {'entry_point':"gym_minigrid.wrappers:ImgObsWrapper",'kwargs':{}}
-        ])
+        ],
+        force_environment_id="multigrid",
+        force_environment_displayed_name="MultiGrid")
+
+    return {'environments':envs}
+
+def install():
+    
+    # Original: https://github.com/ArnaudFickinger/gym-multigrid
+    logging.info("Installing")
+
+    
 
     return True
 
