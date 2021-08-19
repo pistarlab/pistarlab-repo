@@ -5,7 +5,7 @@
     "categories": [
         "agents"
     ],
-    "description": "Agents from Stable baseline agent 3  https://stable-baselines3.readthedocs.io/en/master/",
+    "description": "Agents from Stable baseline agent 3  https://stable-baselines3.readthedocs.io/en/master/. Currently does not support MultiAgent Environments.",
     "extension_author": "piSTAR Lab",
     "original_author": "Raffin, Antonin and Hill, Ashley et al. - https://github.com/DLR-RM/stable-baselines3"
 }
