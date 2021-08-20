@@ -14,7 +14,7 @@ setup(
     url="https://github.com/pistarlab/pistarlab/extensions",
     license='',
     install_requires=['gym-minigrid'],
-    package_data={'pistarlab-envs-gym-minigrid':  ['README.md',"*.json","*.jpg", "manifest_files", "manifest.json","pistarlab_extension.json"] + manifest_files
+    package_data={'pistarlab_envs_gym_minigrid':  ['README.md',"*.json","*.jpg", "manifest_files", "manifest.json","pistarlab_extension.json"] + manifest_files
       },
     packages=find_packages(),
     classifiers=[
