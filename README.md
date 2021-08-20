@@ -1,6 +1,6 @@
 # piSTAR Lab Repo
 
-This proejct contains the main agent snapshot and extension repository for [piSTAR Lab](http://github.com/pistarlab/pistarlab). 
+Agent snapshot and extension repositories for [piSTAR Lab](http://github.com/pistarlab/pistarlab). 
 
 
 ## Extension Development Notes
