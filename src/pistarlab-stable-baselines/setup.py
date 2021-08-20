@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pistarlab-stable-baselines",
-    version="0.0.1-dev",
+    version="0.0.1-dev0",
     author="",
     author_email="",
     description="Stable Baselines",

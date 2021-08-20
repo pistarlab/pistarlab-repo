@@ -5,7 +5,7 @@ manifest_files = [name.replace("pistarlab_petting_zoo/","",1) for name in glob.g
 
 setup(
     name="pistarlab-petting-zoo",
-    version="0.0.1-dev",
+    version="0.0.1-dev0",
     author="pistar",
     author_email="",
     description="https://github.com/PettingZoo-Team/PettingZoo",

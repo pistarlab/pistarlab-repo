@@ -1,6 +1,6 @@
 {
     "id": "pistarlab-stable-baselines",
-    "version": "0.0.1-dev",
+    "version": "0.0.1-dev0",
     "name": "Stable Baseline 3",
     "categories": [
         "agents"

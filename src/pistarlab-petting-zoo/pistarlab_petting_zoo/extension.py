@@ -128,7 +128,7 @@ render_type = {
 }
 
 EXTENSION_ID = "pistarlab-petting-zoo"
-EXTENSION_VERSION = "0.0.1-dev"
+EXTENSION_VERSION = "0.0.1-dev0"
 
 
 def make_title(str):

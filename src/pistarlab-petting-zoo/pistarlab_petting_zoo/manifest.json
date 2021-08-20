@@ -167,8 +167,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "render.fps": 30,
             "render_mode": "rgb_array",
@@ -262,8 +262,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "render.fps": 30,
             "render_mode": "rgb_array",
@@ -519,8 +519,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "render.fps": 30,
             "render_mode": "rgb_array",

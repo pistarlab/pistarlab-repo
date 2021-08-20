@@ -5,7 +5,7 @@ from pistarlab import ctx
 from pistarlab.meta import RL_MULTIPLAYER_ENV, RL_SINGLEPLAYER_ENV
 
 EXTENSION_ID = "pistarlab-landia"
-EXTENSION_VERSION = "0.0.1-dev"
+EXTENSION_VERSION = "0.0.1-dev0"
 
 
 def get_env_specs():
