@@ -1,4 +1,8 @@
 from setuptools import setup, find_packages
+import glob
+
+manifest_files = [name.replace("pistarlab_envs_gym_minigrid/","",1) for name in glob.glob("pistarlab_petting_zoo/manifest_files/**",recursive=True)]
+
 
 setup(
     name="pistarlab-envs-gym-minigrid",
@@ -10,7 +14,7 @@ setup(
     url="https://github.com/pistarlab/pistarlab/extensions",
     license='',
     install_requires=['gym-minigrid'],
-    package_data={'pistarlab-envs-gym-minigrid': ['README.md']
+    package_data={'pistarlab-envs-gym-minigrid':  ['README.md',"*.json","*.jpg", "manifest_files", "manifest.json","pistarlab_extension.json"] + manifest_files
       },
     packages=find_packages(),
     classifiers=[
