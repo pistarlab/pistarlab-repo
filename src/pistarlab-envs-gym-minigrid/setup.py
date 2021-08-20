@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import glob
 
-manifest_files = [name.replace("pistarlab_envs_gym_minigrid/","",1) for name in glob.glob("pistarlab_petting_zoo/manifest_files/**",recursive=True)]
+manifest_files = [name.replace("pistarlab_envs_gym_minigrid/","",1) for name in glob.glob("pistarlab_envs_gym_minigrid/manifest_files/**",recursive=True)]
 
 
 setup(
