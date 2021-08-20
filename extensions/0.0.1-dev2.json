@@ -10,7 +10,8 @@
         "installation_instructions": "Requires manual installation.\nPlease visit http://github.com/pistarlab/landia for details.",
         "extension_author": "Brandyn Kusenda",
         "original_author": "Brandyn Kusenda",
-        "type": "rpath+whl"
+        "type": "rpath+whl",
+        "path": "repo/pistarlab_landia-0.0.1-dev-py3-none-any.whl"
     },
     {
         "id": "pistarlab-petting-zoo",
@@ -23,7 +24,8 @@
         "installation_instructions": "Requires piSTAR Landia to be installed manualy.\nPlease visit http://github.com/pistarlab/landia for details.",
         "extension_author": "piSTAR Lab",
         "original_author": "Justin Terry, et al. - https://www.pettingzoo.ml/",
-        "type": "rpath+whl"
+        "type": "rpath+whl",
+        "path": "repo/pistarlab_petting_zoo-0.0.1-dev-py3-none-any.whl"
     },
     {
         "id": "pistarlab-stable-baselines",
@@ -35,7 +37,8 @@
         "description": "Agents from Stable baseline agent 3  https://stable-baselines3.readthedocs.io/en/master/. Currently does not support MultiAgent Environments.",
         "extension_author": "piSTAR Lab",
         "original_author": "Raffin, Antonin and Hill, Ashley et al. - https://github.com/DLR-RM/stable-baselines3",
-        "type": "rpath+whl"
+        "type": "rpath+whl",
+        "path": "repo/pistarlab_stable_baselines-0.0.1-dev-py3-none-any.whl"
     },
     {
         "id": "pistarlab-envs-gym-minigrid",
@@ -48,6 +51,7 @@
         "installation_instructions": "",
         "extension_author": "piSTAR Lab",
         "original_author": "Chevalier-Boisvert, Maxime et al. - https://github.com/maximecb/gym-minigrid",
-        "type": "rpath+whl"
+        "type": "rpath+whl",
+        "path": "repo/pistarlab_envs_gym_minigrid-0.0.1-dev-py3-none-any.whl"
     }
 ]

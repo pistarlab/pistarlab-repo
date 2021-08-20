@@ -1,6 +1,6 @@
 # piSTAR Lab Repo
 
-Agent snapshot and extension repositories for [piSTAR Lab](http://github.com/pistarlab/pistarlab). 
+Snapshot and extension repositories for [piSTAR Lab](http://github.com/pistarlab/pistarlab). 
 
 
 ## Extension Development Notes

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="pistarlab_multigrid",
+    name="pistarlab-multigrid",
     version="0.0.1-dev",
     author="Original: Fickinger, Arnaud; importted by piSTAR",
     author_email="pistar3.14@gmail.com",

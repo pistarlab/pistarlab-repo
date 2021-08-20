@@ -38,13 +38,18 @@ def main(repo_path):
         print(ext_name)
         try:
             extension_src_path = os.path.join(src_dir,ext_name)#,project_name.replace("-","_"))
+            extension_package_name = ext_name.replace('-',"_")
             run_command(f"pistarlab_extension_tools --action=save_manifest --extension_path {extension_src_path}",fail_ok=True)
-            run_command(f"cd {extension_src_path}; rm -rf build dist && python setup.py sdist bdist_wheel && unzip -l dist/*.whl")
+            run_command(f"cd {extension_src_path}; rm -rf build dist && python setup.py bdist_wheel && unzip -l dist/*.whl")
             run_command(f"cp {extension_src_path}/dist/* {project_root}/extensions/repo")
-            with open(os.path.join(extension_src_path,ext_name.replace('-',"_"),"pistarlab_extension.json"),"r") as f:
+            with open(os.path.join(extension_src_path,extension_package_name,"pistarlab_extension.json"),"r") as f:
                 einfo = json.load(f)
+            version = einfo['version']
+            key = f"{einfo['id']}--{version}"
+            path = f"repo/{extension_package_name}-{version}-py3-none-any.whl"
+ 
             einfo['type'] = "rpath+whl"
-            key = f"{einfo['id']}--{einfo['version']}"
+            einfo['path'] = path
             if key in repo:
                 updated_count+=1
             repo[key] = einfo
