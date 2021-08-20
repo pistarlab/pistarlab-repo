@@ -1,7 +1,7 @@
 [
     {
         "id": "pistarlab-landia",
-        "version": "0.0.1-dev0",
+        "version": "0.0.1",
         "name": "piSTAR Landia Environment",
         "categories": [
             "envs"
@@ -11,11 +11,11 @@
         "extension_author": "Brandyn Kusenda",
         "original_author": "Brandyn Kusenda",
         "type": "rpath+whl",
-        "path": "repo/pistarlab_landia-0.0.1-dev0-py3-none-any.whl"
+        "path": "repo/pistarlab_landia-0.0.1-py3-none-any.whl"
     },
     {
         "id": "pistarlab-petting-zoo",
-        "version": "0.0.1-dev0",
+        "version": "0.0.1",
         "name": "Petting Zoo",
         "categories": [
             "envs"
@@ -25,11 +25,11 @@
         "extension_author": "piSTAR Lab",
         "original_author": "Justin Terry, et al. - https://www.pettingzoo.ml/",
         "type": "rpath+whl",
-        "path": "repo/pistarlab_petting_zoo-0.0.1-dev0-py3-none-any.whl"
+        "path": "repo/pistarlab_petting_zoo-0.0.1-py3-none-any.whl"
     },
     {
         "id": "pistarlab-stable-baselines",
-        "version": "0.0.1-dev0",
+        "version": "0.0.1",
         "name": "Stable Baseline 3",
         "categories": [
             "agents"
@@ -38,11 +38,11 @@
         "extension_author": "piSTAR Lab",
         "original_author": "Raffin, Antonin and Hill, Ashley et al. - https://github.com/DLR-RM/stable-baselines3",
         "type": "rpath+whl",
-        "path": "repo/pistarlab_stable_baselines-0.0.1-dev0-py3-none-any.whl"
+        "path": "repo/pistarlab_stable_baselines-0.0.1-py3-none-any.whl"
     },
     {
         "id": "pistarlab-envs-gym-minigrid",
-        "version": "0.0.1-dev0",
+        "version": "0.0.1",
         "name": "MiniGrid",
         "categories": [
             "envs"
@@ -52,6 +52,6 @@
         "extension_author": "piSTAR Lab",
         "original_author": "Chevalier-Boisvert, Maxime et al. - https://github.com/maximecb/gym-minigrid",
         "type": "rpath+whl",
-        "path": "repo/pistarlab_envs_gym_minigrid-0.0.1-dev0-py3-none-any.whl"
+        "path": "repo/pistarlab_envs_gym_minigrid-0.0.1-py3-none-any.whl"
     }
 ]

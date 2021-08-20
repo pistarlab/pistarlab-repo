@@ -8,7 +8,7 @@ from pistarlab.utils.param_helpers import create_params_from_dict
 from pistarlab.utils.agent_helpers import get_agent_spec_dict,get_agent_spec_interface_dict
 
 EXTENSION_ID = "pistarlab-stable-baselines"
-EXTENSION_VERSION = "0.0.1-dev0"
+EXTENSION_VERSION = "0.0.1"
 
 def get_agent_specs():
     spec_list = []
@@ -42,7 +42,7 @@ def get_agent_specs():
             params=data.get("params"),
             disabled=False,
             displayed_name="{} - Stable Baselines".format(policy_name),
-            version="0.0.1-dev0",
+            version="0.0.1",
             description='StableBaseline\n\nhttps://stable-baselines3.readthedocs.io/\n\n{}'.format(
                 doc))
 

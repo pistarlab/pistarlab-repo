@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pistarlab-envs-gym-minigrid",
-    version="0.0.1-dev0",
+    version="0.0.1",
     author="piSTAR",
     author_email="pistar3.14@gmail.com",
     description="https://github.com/maximecb/gym-minigrid",

@@ -5,7 +5,7 @@ manifest_files = [name.replace("pistarlab_landia/","",1) for name in glob.glob("
 
 setup(
     name="pistarlab-landia",
-    version="0.0.1-dev0",
+    version="0.0.1",
     author="pistar",
     author_email="",
     description="",
