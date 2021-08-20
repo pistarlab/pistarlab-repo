@@ -3,7 +3,9 @@
   "version": "0.0.1-dev",
   "name": "piSTAR Landia Environment",
   "categories": ["envs"],
-  "description": "",
+  "description": "A 2d multi-player playground for AI agents. Humans are also welcome.",
+  "installation_instructions":"Requires manual installation.\nPlease visit http://github.com/pistarlab/landia for details.",
   "extension_author": "Brandyn Kusenda",
   "original_author": "Brandyn Kusenda"
+  
 }

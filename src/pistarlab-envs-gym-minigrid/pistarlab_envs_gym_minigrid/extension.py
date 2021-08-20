@@ -8,11 +8,13 @@ from pistarlab.utils.gym_importer import get_environments_from_gym_registry
 
 def manifest():
     import gym_minigrid
-    environments = get_environments_from_gym_registry(
+    envs = get_environments_from_gym_registry(
         entry_point_prefix=f"gym_minigrid.envs",
         max_count = 300,
-        default_wrappers=[{'entry_point':"gym_minigrid.wrappers:ImgObsWrapper",'kwargs':{}}])
-    return {'environments': environments}
+        default_wrappers=[{'entry_point':"gym_minigrid.wrappers:ImgObsWrapper",'kwargs':{}}],
+        force_environment_id="minigrid",
+        force_environment_displayed_name="MiniGrid")
+    return {'environments': envs}
 
 def install():
     ctx.install_extension_from_manifest(EXTENSION_ID,EXTENSION_VERSION)

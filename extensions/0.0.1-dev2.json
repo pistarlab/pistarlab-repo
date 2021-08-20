@@ -1,5 +1,31 @@
 [
     {
+        "id": "pistarlab-landia",
+        "version": "0.0.1-dev",
+        "name": "piSTAR Landia Environment",
+        "categories": [
+            "envs"
+        ],
+        "description": "A 2d multi-player playground for AI agents. Humans are also welcome.",
+        "installation_instructions": "Requires manual installation.\nPlease visit http://github.com/pistarlab/landia for details.",
+        "extension_author": "Brandyn Kusenda",
+        "original_author": "Brandyn Kusenda",
+        "type": "rpath+whl"
+    },
+    {
+        "id": "pistarlab-petting-zoo",
+        "version": "0.0.1-dev",
+        "name": "Petting Zoo",
+        "categories": [
+            "envs"
+        ],
+        "description": "Small subset of environments from Pettingzoo project.\nWARNING: For advanced users, may require wrappers which are not yet available in piSTAR Lab's UI",
+        "installation_instructions": "Requires piSTAR Landia to be installed manualy.\nPlease visit http://github.com/pistarlab/landia for details.",
+        "extension_author": "piSTAR Lab",
+        "original_author": "Justin Terry, et al. - https://www.pettingzoo.ml/",
+        "type": "rpath+whl"
+    },
+    {
         "id": "pistarlab-stable-baselines",
         "version": "0.0.1-dev",
         "name": "Stable Baseline 3",
@@ -9,44 +35,19 @@
         "description": "Agents from Stable baseline agent 3  https://stable-baselines3.readthedocs.io/en/master/. Currently does not support MultiAgent Environments.",
         "extension_author": "piSTAR Lab",
         "original_author": "Raffin, Antonin and Hill, Ashley et al. - https://github.com/DLR-RM/stable-baselines3",
-        "type" :"rpath+whl"
+        "type": "rpath+whl"
     },
     {
-        "id": "pistarlab-landia",
+        "id": "pistarlab-envs-gym-minigrid",
         "version": "0.0.1-dev",
-        "name": "Landia Environments",
+        "name": "MiniGrid",
         "categories": [
             "envs"
         ],
-        "description": "see http://github.com/pistarlab/landia",
+        "description": "Minimalistic Gridworld Environment: https://github.com/maximecb/gym-minigrid",
+        "installation_instructions": "",
         "extension_author": "piSTAR Lab",
-        "original_author": "Brandyn Kusenda - http://github.com/pistarlab/landia",
-        "type" :"rpath+whl"
-    },
-    {
-        "id": "pistarlab-petting-zoo",
-        "version": "0.0.1-dev",
-        "name": "Petting Zoo",
-        "categories": [
-            "envs"
-        ],
-        "description": "Multi Agent Environment Repository :https://github.com/ray-project/ray/blob/master/rllib/env/pettingzoo_env.py",
-        "extension_author": "piSTAR Lab",
-        "original_author": "Justin Terry, et al. - https://www.pettingzoo.ml/",
-        "type" :"rpath+whl",
-        "path": "repo/pistarlab_petting_zoo-0.0.1.dev0-py3-none-any.whl"
-    },
-    {
-        "id": "pistarlab-envs-minecraft",
-        "version": "0.0.1-dev",
-        "name": "MineRL",
-        "hidden": true,
-        "categories": [
-            "envs"
-        ],
-        "description": "Minecraft RL environment. See: https://minerl.io/docs/tutorials/index.html.  Requires OpenJDK Java 8",
-        "extension_author": "piSTAR Lab",
-        "original_author": "Miner Labs - https://minerl.io/docs/tutorials/index.html",
-        "type" :"rpath+whl"
+        "original_author": "Chevalier-Boisvert, Maxime et al. - https://github.com/maximecb/gym-minigrid",
+        "type": "rpath+whl"
     }
 ]

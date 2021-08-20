@@ -5,9 +5,8 @@
     "categories": [
         "envs"
     ],
-    "description": "Multi Agent Environment Repository :https://github.com/ray-project/ray/blob/master/rllib/env/pettingzoo_env.py",
+    "description": "Small subset of environments from Pettingzoo project.\nWARNING: For advanced users, may require wrappers which are not yet available in piSTAR Lab's UI",
+    "installation_instructions":"Requires piSTAR Landia to be installed manualy.\nPlease visit http://github.com/pistarlab/landia for details.",
     "extension_author": "piSTAR Lab",
-    "original_author": "Justin Terry, et al. - https://www.pettingzoo.ml/",
-    "type" :"rpath+whl",
-    "path": "repo/pistarlab_petting_zoo-0.0.1.dev0-py3-none-any.whl"
+    "original_author": "Justin Terry, et al. - https://www.pettingzoo.ml/"
 }
