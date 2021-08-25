@@ -21,7 +21,6 @@
             "envs"
         ],
         "description": "Small subset of environments from Pettingzoo project.\nWARNING: For advanced users, may require wrappers which are not yet available in piSTAR Lab's UI",
-        "installation_instructions": "Requires piSTAR Landia to be installed manualy.\nPlease visit http://github.com/pistarlab/landia for details.",
         "extension_author": "piSTAR Lab",
         "original_author": "Justin Terry, et al. - https://www.pettingzoo.ml/",
         "type": "rpath+whl",

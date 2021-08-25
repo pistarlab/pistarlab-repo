@@ -24,8 +24,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "ansi"
+              "ansi",
+              "human"
             ],
             "render.fps": 30,
             "render_mode": "stdout",

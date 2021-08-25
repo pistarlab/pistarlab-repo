@@ -34,12 +34,17 @@ def main(repo_path):
     extension_names = os.listdir(src_dir)
     updated_count = 0
     count = 0
+    successful_additions = []
+    manifest_fails = []
     for ext_name in extension_names:
         print(ext_name)
         try:
             extension_src_path = os.path.join(src_dir,ext_name)#,project_name.replace("-","_"))
             extension_package_name = ext_name.replace('-',"_")
-            run_command(f"pistarlab_extension_tools --action=save_manifest --extension_path {extension_src_path}",fail_ok=True)
+            try:
+                run_command(f"pistarlab_extension_tools --action=save_manifest --extension_path {extension_src_path}",fail_ok=False)
+            except Exception as e:
+                manifest_fails.append(ext_name)
             run_command(f"cd {extension_src_path}; rm -rf build dist && python setup.py bdist_wheel && unzip -l dist/*.whl")
             run_command(f"cp {extension_src_path}/dist/* {project_root}/extensions/repo")
             with open(os.path.join(extension_src_path,extension_package_name,"pistarlab_extension.json"),"r") as f:
@@ -54,6 +59,7 @@ def main(repo_path):
                 updated_count+=1
             repo[key] = einfo
             count +=1
+            successful_additions.append(key)
 
         except Exception as e:
             # print(f"Failed to load {ext_name}")
@@ -64,6 +70,10 @@ def main(repo_path):
     with open(repo_path,"w") as f:
         json.dump(list(repo.values()),f,indent=4)
     print(f"Updated repo at {repo_path}.  {updated_count} updated entries and {count-updated_count} new entries")
+    print("")
+    print(f"Extensioned processed successfully: {successful_additions}")
+    print("")
+    print(f"Failed manifest runs for (this might be ok, depends on the extension): {manifest_fails}")
 
 
         

@@ -12,9 +12,9 @@ def get_env_specs():
     spec_list = []
 
     spec = get_env_spec_data(
-        displayed_name="Landia: Food Collector",
-        spec_displayed_name="Food Collector",
-        spec_id='landia_food_collector',
+        displayed_name="Landia: Forage",
+        spec_displayed_name="Forage",
+        spec_id='landia_forage',
         env_type=RL_MULTIPLAYER_ENV,
         env_kwargs={
             "remote_client": False,

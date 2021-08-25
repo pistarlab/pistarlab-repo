@@ -1,3 +1,5 @@
+TODO: NOT WORKKING
+
 https://minerl.io/docs/tutorials/index.html
 https://github.com/juliusfrost/minerl-rllib
 
