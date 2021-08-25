@@ -23,10 +23,16 @@ TODO
 ## Deploying Extensions to Repo
 
 ### Using script
-run 
-```
-python scripts/update_extension_repo.py  --repo_index REPO_FILE_PATH
-```
+
+1. First generate manifests for each extension with
+    ```
+    xvfb-run pistarlab_extension_tools --action=save_manifest --extension_path FULLPATH_TO_EXTENSION_PROJECT
+    ```
+
+1. then run 
+    ```
+    python scripts/update_extension_repo.py  --repo_index REPO_FILE_PATH
+    ```
 
 ### Manually
 
@@ -38,7 +44,7 @@ Requirements: pistarlab should be installed
     ```
 1. Build manifest (only needed if extension requires a manifest)
     ```bash
-    pistarlab_extension_tools --action=save_manifest --extension_path FULL_PATH_TO_EXTENSION_SOURCE
+    pistarlab_extension_tools --action=save_manifest --extension_path FULLPATH_TO_EXTENSION_PROJECT
      ```
      Note: xvfb-run required if running remotely
 1. Build Extension

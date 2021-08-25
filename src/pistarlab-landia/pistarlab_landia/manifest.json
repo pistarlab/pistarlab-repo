@@ -12,9 +12,9 @@
       "default_config": null,
       "env_specs": [
         {
-          "spec_id": "landia_food_collector",
-          "displayed_name": "Landia: Food Collector",
-          "spec_displayed_name": "Food Collector",
+          "spec_id": "landia_forage",
+          "displayed_name": "Landia: Forage",
+          "spec_displayed_name": "Forage",
           "description": null,
           "entry_point": "landia.env:LandiaEnv",
           "env_type": "RL_MULTIPLAYER_ENV",
