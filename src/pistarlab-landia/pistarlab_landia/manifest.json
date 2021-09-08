@@ -2,15 +2,198 @@
   "environments": [
     {
       "environment_id": "landia",
-      "displayed_name": "piSTAR Landia",
+      "displayed_name": "Landia",
       "description": null,
       "default_entry_point": null,
       "version": "0.0.1-dev",
       "disabled": false,
+      "collection": "piSTAR Lab",
       "categories": [],
       "default_meta": null,
       "default_config": null,
       "env_specs": [
+        {
+          "spec_id": "landia_ctf",
+          "displayed_name": "Landia: Capture the Flag",
+          "spec_displayed_name": "Capture the Flag",
+          "description": "Two teams (red/blue) try to capture each other flag.",
+          "entry_point": "landia.env:LandiaEnv",
+          "env_type": "RL_MULTIPLAYER_ENV",
+          "tags": [],
+          "metadata": {
+            "image_filename": null,
+            "render.modes": [],
+            "render.fps": 30,
+            "render_mode": "rgb_array",
+            "render_stats": false,
+            "observation_spaces": {
+              "1": {
+                "class_name": "Box",
+                "module": "gym.spaces.box",
+                "kwargs": {
+                  "shape": {
+                    "__type": "tuple",
+                    "values": [
+                      42,
+                      42,
+                      3
+                    ]
+                  },
+                  "low": 0.0,
+                  "high": 255.0
+                },
+                "args": []
+              },
+              "2": {
+                "class_name": "Box",
+                "module": "gym.spaces.box",
+                "kwargs": {
+                  "shape": {
+                    "__type": "tuple",
+                    "values": [
+                      42,
+                      42,
+                      3
+                    ]
+                  },
+                  "low": 0.0,
+                  "high": 255.0
+                },
+                "args": []
+              },
+              "3": {
+                "class_name": "Box",
+                "module": "gym.spaces.box",
+                "kwargs": {
+                  "shape": {
+                    "__type": "tuple",
+                    "values": [
+                      42,
+                      42,
+                      3
+                    ]
+                  },
+                  "low": 0.0,
+                  "high": 255.0
+                },
+                "args": []
+              },
+              "4": {
+                "class_name": "Box",
+                "module": "gym.spaces.box",
+                "kwargs": {
+                  "shape": {
+                    "__type": "tuple",
+                    "values": [
+                      42,
+                      42,
+                      3
+                    ]
+                  },
+                  "low": 0.0,
+                  "high": 255.0
+                },
+                "args": []
+              }
+            },
+            "action_spaces": {
+              "1": {
+                "class_name": "Discrete",
+                "module": "gym.spaces.discrete",
+                "kwargs": {},
+                "args": [
+                  11
+                ]
+              },
+              "2": {
+                "class_name": "Discrete",
+                "module": "gym.spaces.discrete",
+                "kwargs": {},
+                "args": [
+                  11
+                ]
+              },
+              "3": {
+                "class_name": "Discrete",
+                "module": "gym.spaces.discrete",
+                "kwargs": {},
+                "args": [
+                  11
+                ]
+              },
+              "4": {
+                "class_name": "Discrete",
+                "module": "gym.spaces.discrete",
+                "kwargs": {},
+                "args": [
+                  11
+                ]
+              }
+            },
+            "num_players": 4,
+            "max_num_players": 4,
+            "players": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "possible_players": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
+          },
+          "config": {
+            "default_render_mode": "rgb_array",
+            "env_kwargs": {
+              "remote_client": false,
+              "tick_rate": 0,
+              "hostname": "localhost",
+              "resolution": [
+                42,
+                42
+              ],
+              "port": 10001,
+              "agent_map": {
+                "1": {
+                  "team_name": "red"
+                },
+                "2": {
+                  "team_name": "red"
+                },
+                "3": {
+                  "team_name": "blue"
+                },
+                "4": {
+                  "team_name": "blue"
+                }
+              },
+              "content_overrides": {
+                "active_controllers": [
+                  "ctf"
+                ],
+                "controllers": {
+                  "ctf": {
+                    "class": "CTFController",
+                    "config": {
+                      "min_team_size": 0
+                    }
+                  }
+                },
+                "maps": {
+                  "main": {
+                    "static_layers": [
+                      "ctf_map_1.txt"
+                    ]
+                  }
+                }
+              }
+            },
+            "default_wrappers": []
+          }
+        },
         {
           "spec_id": "landia_forage",
           "displayed_name": "Landia: Forage",
@@ -110,7 +293,7 @@
                 "maps": {
                   "main": {
                     "static_layers": [
-                      "map.txt"
+                      "map_9x9_vwall.txt"
                     ]
                   }
                 }
@@ -218,7 +401,7 @@
                 "maps": {
                   "main": {
                     "static_layers": [
-                      "map.txt"
+                      "map_9x9_vwall.txt"
                     ]
                   }
                 }

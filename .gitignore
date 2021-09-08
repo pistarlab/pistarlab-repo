@@ -16,3 +16,4 @@ MANIFEST
 
 src/*/build
 src/*/dist
+tmp

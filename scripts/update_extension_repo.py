@@ -38,8 +38,13 @@ def main(repo_path):
     manifest_fails = []
     for ext_name in extension_names:
         print(ext_name)
+
         try:
             extension_src_path = os.path.join(src_dir,ext_name)#,project_name.replace("-","_"))
+            if not os.path.exists(os.path.join(extension_src_path,ext_name.replace("-","_"),"pistarlab_extension.json")):
+                print(f"Skipping {ext_name} no pistarlab_extension.json file")
+                continue
+
             extension_package_name = ext_name.replace('-',"_")
             try:
                 run_command(f"pistarlab_extension_tools --action=save_manifest --extension_path {extension_src_path}",fail_ok=False)

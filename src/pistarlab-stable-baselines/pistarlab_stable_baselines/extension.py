@@ -7,6 +7,9 @@ from pistarlab.utils.param_helpers import create_params_from_dict
 
 from pistarlab.utils.agent_helpers import get_agent_spec_dict,get_agent_spec_interface_dict
 
+
+import json
+
 EXTENSION_ID = "pistarlab-stable-baselines"
 EXTENSION_VERSION = "0.0.1"
 
@@ -40,6 +43,7 @@ def get_agent_specs():
             components=None,
             interfaces={'run':get_agent_spec_interface_dict()},
             params=data.get("params"),
+            algo_type_id=data.get("algo_type_id"),
             disabled=False,
             displayed_name="{} - Stable Baselines".format(policy_name),
             version="0.0.1",
@@ -48,9 +52,6 @@ def get_agent_specs():
 
         spec_list.append(agent_spec)
     return spec_list
-
-
-
 
 def install():
     logging.info("Installing: {}".format(EXTENSION_ID))

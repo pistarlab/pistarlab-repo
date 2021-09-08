@@ -2,7 +2,7 @@
     {
         "id": "pistarlab-landia",
         "version": "0.0.1",
-        "name": "piSTAR Landia Environment",
+        "name": "Landia Environment",
         "categories": [
             "envs"
         ],
@@ -52,5 +52,31 @@
         "original_author": "Chevalier-Boisvert, Maxime et al. - https://github.com/maximecb/gym-minigrid",
         "type": "rpath+whl",
         "path": "repo/pistarlab_envs_gym_minigrid-0.0.1-py3-none-any.whl"
+    },
+    {
+        "id": "pistarlab-unity-envs",
+        "version": "0.0.1.alpha",
+        "name": "Unity Envs",
+        "categories": [
+            "envs"
+        ],
+        "description": "Prototype ONLY",
+        "extension_author": "piSTAR Lab",
+        "original_author": "Unity ML Agents",
+        "type": "rpath+whl",
+        "path": "repo/pistarlab_unity_envs-0.0.1.alpha-py3-none-any.whl"
+    },
+    {
+        "id": "pistarlab-petting-zoo",
+        "version": "0.0.1.alpha",
+        "name": "Petting Zoo",
+        "categories": [
+            "envs"
+        ],
+        "description": "Small subset of environments from Pettingzoo project.\nWARNING: For advanced users, may require wrappers which are not yet available in piSTAR Lab's UI",
+        "extension_author": "piSTAR Lab",
+        "original_author": "Justin Terry, et al. - https://www.pettingzoo.ml/",
+        "type": "rpath+whl",
+        "path": "repo/pistarlab_petting_zoo-0.0.1.alpha-py3-none-any.whl"
     }
 ]

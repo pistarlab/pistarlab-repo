@@ -10,6 +10,51 @@ EXTENSION_VERSION = "0.0.1"
 
 def get_env_specs():
     spec_list = []
+    spec = get_env_spec_data(
+        displayed_name="Landia: Capture the Flag",
+        spec_displayed_name="Capture the Flag",
+        description="Two teams (red/blue) try to capture each other flag.",
+        spec_id='landia_ctf',
+        env_type=RL_MULTIPLAYER_ENV,
+        env_kwargs={
+            "remote_client": False,
+            "tick_rate": 0,
+            "hostname": "localhost",
+            "resolution": (42, 42),
+            "port": 10001,
+            "agent_map": {
+                "1": {
+                    "team_name": "red"
+                },
+                "2": {
+                    "team_name": "red"
+                },
+                "3": {
+                    "team_name": "blue"
+                },
+                "4": {
+                    "team_name": "blue"
+                }
+            },
+            "content_overrides": {
+                'active_controllers': ["ctf"],
+                "controllers": {
+                    "ctf": {
+                        "class": "CTFController",
+                        "config": {
+                            "min_team_size": 0
+                        }
+                    }},
+
+                "maps": {
+                    "main": {"static_layers": ['ctf_map_1.txt']}
+                }
+
+            }},
+        entry_point="landia.env:LandiaEnv",
+        default_render_mode='rgb_array',
+        default_wrappers=[])
+    spec_list.append(spec)
 
     spec = get_env_spec_data(
         displayed_name="Landia: Forage",
@@ -25,14 +70,12 @@ def get_env_specs():
             "content_overrides": {
                 'active_controllers': ["pspawn", "foodcollect", "objcollision"],
                 "maps": {
-                    "main": {"static_layers": ['map.txt']}
+                    "main": {"static_layers": ['map_9x9_vwall.txt']}
                 }
 
             }},
         entry_point="landia.env:LandiaEnv",
         default_render_mode='rgb_array',
-        # environment_displayed_name="piSTAR Landia",
-        # categories=[],
         default_wrappers=[])
     spec_list.append(spec)
 
@@ -50,20 +93,18 @@ def get_env_specs():
             "content_overrides": {
                 'active_controllers': ["pspawn", "objcollision", "infect1"],
                 "maps": {
-                    "main": {"static_layers": ['map.txt']}
+                    "main": {"static_layers": ['map_9x9_vwall.txt']}
                 }}
         },
 
         entry_point="landia.env:LandiaEnv",
         default_render_mode='rgb_array',
-        # environment_displayed_name="piSTAR Landia",
-        # categories=[],
         default_wrappers=[])
     spec_list.append(spec)
 
     spec = get_env_spec_data(
         displayed_name="Landia: Tag",
-        spec_displayed_name = "Tag",
+        spec_displayed_name="Tag",
         spec_id='landia_tag',
         env_type=RL_MULTIPLAYER_ENV,
         env_kwargs={
@@ -80,40 +121,20 @@ def get_env_specs():
             }},
         entry_point="landia.env:LandiaEnv",
         default_render_mode='rgb_array',
-        # environment_displayed_name="piSTAR Landia",
-        # categories=[],
         default_wrappers=[])
     spec_list.append(spec)
 
-    # spec = get_env_spec_data(
-    # displayed_name="Landia: Food Collector (single player)",
-    # spec_id='landia_food_collect_single',
-    # env_kwargs={
-    #     "remote_client":False,
-    #     "tick_rate": 60,
-    #     "hostname":"localhost",
-    #     "resolution": (42,42),
-    #     "port":10001,
-    #     "content_overrides":{
-    #         'active_controllers': ["pspawn","foodcollect","objcollision"]
-    #     }},
-    # env_type=RL_SINGLEPLAYER_ENV,
-    # entry_point="landia.env:LandiaEnvSingle",
-    # default_render_mode='rgb_array',
-    # environment_id = "landia",
-    # categories=[],
-    # default_wrappers=[])
-    # spec_list.append(spec)
     return spec_list
 
 
 def manifest():
     environment = get_environment_data(
         environment_id="landia",
-        displayed_name="piSTAR Landia",
+        displayed_name="Landia",
         categories=[],
-        env_specs = get_env_specs() )
-    return {'environments':[environment]}
+        collection="piSTAR Lab",
+        env_specs=get_env_specs())
+    return {'environments': [environment]}
 
 
 def install():

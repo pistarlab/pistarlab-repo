@@ -1,0 +1,11 @@
+{
+    "id": "pistarlab-unity-envs",
+    "version": "0.0.1.alpha",
+    "name": "Unity Envs",
+    "categories": [
+        "envs"
+    ],
+    "description": "Prototype ONLY",
+    "extension_author": "piSTAR Lab",
+    "original_author": "Unity ML Agents"
+}

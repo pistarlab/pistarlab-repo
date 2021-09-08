@@ -7,7 +7,7 @@ setup(
     author_email="",
     description="Stable Baselines",
     long_description='This is a pistarlab extension',
-    url="https://github.com/pistarlab/pistarlab/extensions",
+    url="https://github.com/pistarlab/pistarlab-repo/src/extensions",
     license='',
     install_requires=['stable-baselines3'],
     package_data={'pistarlab-stable-baselines': ['README.md']

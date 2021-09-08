@@ -98,13 +98,13 @@ class AgentCallback(BaseCallback):
 
 
 AGENT_REG = {
-    "A2C": {'class': A2C, 'default_policy': "MlpPolicy", "params": {}},
-    "DDPG": {'class': DDPG, 'default_policy': "MlpPolicy", "params": {}},
-    "DQN": {'class': DQN, 'default_policy': "MlpPolicy", "params": {}},
-    "HER": {'class': HER, 'default_policy': "MlpPolicy", "params": {}},
-    "PPO": {'class': PPO, 'default_policy': "MlpPolicy", "params": {}},
-    "TD3": {'class': TD3, 'default_policy': "MlpPolicy", "params": {}},
-    "SAC": {'class': SAC, 'default_policy': "MlpPolicy", "params": {}},
+    "A2C": {'class': A2C, 'algo_type_id':'A2C','default_policy': "MlpPolicy", "params": {}},
+    "DDPG": {'class': DDPG, 'algo_type_id':'DDPG','default_policy': "MlpPolicy", "params": {}},
+    "DQN": {'class': DQN, 'algo_type_id':'DQN','default_policy': "MlpPolicy", "params": {}},
+    "HER": {'class': HER, 'algo_type_id':'HER','default_policy': "MlpPolicy", "params": {}},
+    "PPO": {'class': PPO, 'algo_type_id':'PPO','default_policy': "MlpPolicy", "params": {}},
+    "TD3": {'class': TD3, 'algo_type_id':'TD3','default_policy': "MlpPolicy", "params": {}},
+    "SAC": {'class': SAC, 'algo_type_id':'SAC','default_policy': "MlpPolicy", "params": {}},
 }
 
 excluded_params = {'env', 'self', 'policy_kwargs', 'policy',

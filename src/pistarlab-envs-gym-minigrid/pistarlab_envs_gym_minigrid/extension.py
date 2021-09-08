@@ -13,6 +13,7 @@ def manifest():
         max_count = 300,
         default_wrappers=[{'entry_point':"gym_minigrid.wrappers:ImgObsWrapper",'kwargs':{}}],
         force_environment_id="minigrid",
+        collection="MiniGrid",
         force_environment_displayed_name="MiniGrid")
     return {'environments': envs}
 

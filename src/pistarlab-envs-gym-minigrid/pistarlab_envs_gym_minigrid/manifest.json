@@ -7,6 +7,7 @@
       "default_entry_point": null,
       "version": "0.0.1-dev",
       "disabled": false,
+      "collection": "MiniGrid",
       "categories": [],
       "default_meta": null,
       "default_config": null,
@@ -22,8 +23,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -91,8 +92,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -160,8 +161,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -229,8 +230,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -298,8 +299,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -367,8 +368,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -436,8 +437,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -505,8 +506,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -574,8 +575,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -643,8 +644,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -712,8 +713,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -781,8 +782,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -850,8 +851,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -919,8 +920,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -988,8 +989,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1057,8 +1058,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1126,8 +1127,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1195,8 +1196,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1264,8 +1265,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1333,8 +1334,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1402,8 +1403,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1471,8 +1472,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1540,8 +1541,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1609,8 +1610,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1678,8 +1679,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1747,8 +1748,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1816,8 +1817,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1885,8 +1886,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1954,8 +1955,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2023,8 +2024,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2092,8 +2093,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2161,8 +2162,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2230,8 +2231,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2299,8 +2300,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2368,8 +2369,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2437,8 +2438,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2506,8 +2507,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2575,8 +2576,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2644,8 +2645,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2713,8 +2714,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2782,8 +2783,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2851,8 +2852,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2920,8 +2921,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2989,8 +2990,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3058,8 +3059,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3127,8 +3128,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3196,8 +3197,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3265,8 +3266,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3334,8 +3335,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3403,8 +3404,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3472,8 +3473,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3541,8 +3542,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3610,8 +3611,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3679,8 +3680,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3748,8 +3749,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3817,8 +3818,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3886,8 +3887,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3955,8 +3956,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4024,8 +4025,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4093,8 +4094,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4162,8 +4163,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4231,8 +4232,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4300,8 +4301,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4369,8 +4370,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4438,8 +4439,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4507,8 +4508,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4576,8 +4577,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4645,8 +4646,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4714,8 +4715,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4783,8 +4784,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4852,8 +4853,8 @@
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "human",
-              "rgb_array"
+              "rgb_array",
+              "human"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,

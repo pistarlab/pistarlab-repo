@@ -1,0 +1,104 @@
+{
+  "environments": [
+    {
+      "environment_id": "unity_envs",
+      "displayed_name": "Unity Envs",
+      "description": null,
+      "default_entry_point": null,
+      "version": "0.0.1-dev",
+      "disabled": false,
+      "categories": [],
+      "default_meta": null,
+      "default_config": null,
+      "env_specs": [
+        {
+          "spec_id": "unity_3dball",
+          "displayed_name": "Unity: 3d ball",
+          "spec_displayed_name": "3d ball",
+          "description": null,
+          "entry_point": "pistarlab_unity_envs.wrapper:Unity3DEnv",
+          "env_type": "RL_MULTIPLAYER_ENV",
+          "tags": [],
+          "metadata": {
+            "image_filename": null,
+            "render.modes": [],
+            "render.fps": 30,
+            "render_mode": "rgb_array",
+            "render_stats": false,
+            "observation_spaces": {
+              "3DBall?team=0": {
+                "class_name": "Box",
+                "module": "gym.spaces.box",
+                "kwargs": {
+                  "shape": {
+                    "__type": "tuple",
+                    "values": [
+                      8
+                    ]
+                  },
+                  "low": 0.0,
+                  "high": 1.0
+                },
+                "args": []
+              }
+            },
+            "action_spaces": {
+              "3DBall?team=0": {
+                "class_name": "Box",
+                "module": "gym.spaces.box",
+                "kwargs": {
+                  "shape": {
+                    "__type": "tuple",
+                    "values": [
+                      2
+                    ]
+                  },
+                  "low": -1.0,
+                  "high": 1.0
+                },
+                "args": []
+              }
+            },
+            "num_players": 12,
+            "max_num_players": 12,
+            "players": [
+              "3DBall?team=0_0",
+              "3DBall?team=0_1",
+              "3DBall?team=0_2",
+              "3DBall?team=0_3",
+              "3DBall?team=0_4",
+              "3DBall?team=0_5",
+              "3DBall?team=0_6",
+              "3DBall?team=0_7",
+              "3DBall?team=0_8",
+              "3DBall?team=0_9",
+              "3DBall?team=0_10",
+              "3DBall?team=0_11"
+            ],
+            "possible_players": [
+              "3DBall?team=0_0",
+              "3DBall?team=0_1",
+              "3DBall?team=0_2",
+              "3DBall?team=0_3",
+              "3DBall?team=0_4",
+              "3DBall?team=0_5",
+              "3DBall?team=0_6",
+              "3DBall?team=0_7",
+              "3DBall?team=0_8",
+              "3DBall?team=0_9",
+              "3DBall?team=0_10",
+              "3DBall?team=0_11"
+            ]
+          },
+          "config": {
+            "default_render_mode": "rgb_array",
+            "env_kwargs": {
+              "game_name": "3dball"
+            },
+            "default_wrappers": []
+          }
+        }
+      ]
+    }
+  ]
+}

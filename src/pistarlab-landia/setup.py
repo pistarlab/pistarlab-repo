@@ -6,13 +6,13 @@ manifest_files = [name.replace("pistarlab_landia/","",1) for name in glob.glob("
 setup(
     name="pistarlab-landia",
     version="0.0.1",
-    author="pistar",
+    author="piSTAR.ai",
     author_email="",
     description="",
     long_description='',
     url="https://github.com/pistarlab/pistarlab/extensions",
     license='',
-    install_requires=[],
+    install_requires=["landia @ https://github.com/pistarlab/landia/archive/ctf.zip#egg=landia-0.0.1-dev"],
     package_data={'pistarlab_landia': ['README.md',"*.json","*.jpg", "manifest_files", "manifest.json","pistarlab_extension.json"] + manifest_files
       },
     packages=find_packages(),

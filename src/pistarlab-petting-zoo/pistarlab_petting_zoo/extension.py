@@ -128,37 +128,47 @@ render_type = {
 }
 
 EXTENSION_ID = "pistarlab-petting-zoo"
-EXTENSION_VERSION = "0.0.1"
+EXTENSION_VERSION = "0.0.1.alpha"
 
 
 def make_title(str):
     return str.title().replace("_"," ").replace("."," ")
 
 def get_envs():
-    env_spec_list = []
+    envs = {}
     for mod_key, mod in all_environments.items():
-        tag, game_name, env_turn_type = mod_key.split("/")
-        
+        game_name, game_type, env_turn_type = mod_key.split("/")
+        env_name = f"pettingzoo_{game_name}"
  
+        spec_id = f"{mod.__name__}"
         spec = get_env_spec_data(
-            spec_id=f"{mod.__name__}",
+            spec_id=spec_id,
             entry_point="{}:env".format(mod.__name__),
             displayed_name=make_title(mod.__name__),
             env_kwargs={},
             env_type=RL_MULTIPLAYER_ENV,
-            tags=[tag],
+            tags=[game_type],
             default_wrappers=[
                 {"entry_point": "pistarlab_petting_zoo.wrappers:PettingZooAECWrapper", "kwargs": {}}],
-            default_render_mode=render_type.get(tag))
-        env_spec_list.append(spec)
+            default_render_mode=render_type.get(game_name))
 
-    env = get_environment_data(
-        environment_id="petting_zoo",
-        displayed_name="Petting Zoo",
-        categories=[],
-        env_specs=env_spec_list)
+    
+        env = envs.get(env_name,None)
+        if env is None:
+            env = get_environment_data(
+                environment_id=env_name,
+                displayed_name=make_title(env_name),
+                collection="Petting Zoo",
+                categories=[],
+                env_specs=[])
+        specs = env.get("env_specs",[])
+        specs.append(spec)
+        env['env_specs'] = specs
+        envs[env_name] = env
 
-    return [env]
+
+
+    return list(envs.values())
 
 
 def manifest():
