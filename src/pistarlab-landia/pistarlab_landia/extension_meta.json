@@ -1,6 +1,6 @@
 {
   "id": "pistarlab-landia",
-  "version": "0.0.1",
+  "version": "0.0.1.dev0",
   "name": "Landia Environment",
   "categories": ["envs"],
   "description": "A 2d multi-player playground for AI agents. Humans are also welcome.",

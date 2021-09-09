@@ -5,7 +5,7 @@ manifest_files = [name.replace("pistarlab_petting_zoo/","",1) for name in glob.g
 
 setup(
     name="pistarlab-petting-zoo",
-    version="0.0.1",
+    version="0.0.1.dev0",
     author="pistar",
     author_email="",
     description="https://github.com/PettingZoo-Team/PettingZoo",
@@ -13,7 +13,7 @@ setup(
     url="https://github.com/pistarlab/pistarlab/extensions",
     license='',
     install_requires=[
-        'pettingzoo==1.5.0',
+        'pettingzoo==1.11.2',
         'autorom','multi_agent_ale_py','chess','magent'],
     package_data={'pistarlab_petting_zoo': ['README.md',"*.json","*.jpg", "manifest_files", "manifest.json","pistarlab_extension.json"] + manifest_files
       },

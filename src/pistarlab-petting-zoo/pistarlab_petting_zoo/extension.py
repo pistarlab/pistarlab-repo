@@ -28,7 +28,7 @@ from pistarlab import ctx
 # from pettingzoo.atari import wizard_of_wor_v2 as wizard_of_wor
 # from pettingzoo.atari import warlords_v2 as warlords
 
-from pettingzoo.classic import chess_v2
+from pettingzoo.classic import chess_v4
 # from pettingzoo.classic import rps_v1 as rps
 # from pettingzoo.classic import rpsls_v1  as rpsls
 # from pettingzoo.classic import connect_four_v1 as connect_four
@@ -46,8 +46,8 @@ from pettingzoo.classic import chess_v2
 
 # from pettingzoo.butterfly import knights_archers_zombies_v0 as
 # from pettingzoo.butterfly import pistonball_v1
-from pettingzoo.butterfly import cooperative_pong_v2
-from pettingzoo.butterfly import prison_v2
+from pettingzoo.butterfly import cooperative_pong_v3
+from pettingzoo.butterfly import prison_v3
 
 # from pettingzoo.magent import battle_v2
 # from pettingzoo.magent import adversarial_pursuit_v1
@@ -59,7 +59,7 @@ from pettingzoo.butterfly import prison_v2
 
 # from pettingzoo.sisl import pursuit_v3
 # from pettingzoo.sisl import waterworld_v3
-from pettingzoo.sisl import multiwalker_v6
+from pettingzoo.sisl import multiwalker_v7
 
 all_prefixes = ["atari", "classic", "butterfly", "magent", "mpe", "sisl"]
 
@@ -86,7 +86,7 @@ all_environments = {
     # "atari/wizard_of_wor": wizard_of_wor,
     # "atari/warlords": warlords,
 
-    "classic/chess/AEC": chess_v2,
+    "classic/chess/AEC": chess_v4,
     # "classic/rps": rps,
     # "classic/rpsls": rpsls,
     # "classic/connect_four": connect_four,
@@ -103,8 +103,8 @@ all_environments = {
     # "classic/backgammon": backgammon,
 
 
-    "butterfly/cooperative_pong/AEC": cooperative_pong_v2,
-    "butterfly/prison/AEC": prison_v2,
+    "butterfly/cooperative_pong/AEC": cooperative_pong_v3,
+    "butterfly/prison/AEC": prison_v3,
 
     # "magent/adversarial_pursuit": adversarial_pursuit_v1,
     # "magent/battle/AEC": battle_v2,
@@ -114,7 +114,7 @@ all_environments = {
     # "magent/tiger_deer": tiger_deer_v1,
 
 
-    "sisl/multiwalker/AEC": multiwalker_v6,
+    "sisl/multiwalker/AEC": multiwalker_v7,
     # "sisl/waterworld": waterworld,
     # "sisl/pursuit/AEC": pursuit,
 }
@@ -127,9 +127,10 @@ render_type = {
     "sisl": "rgb_array"
 }
 
-EXTENSION_ID = "pistarlab-petting-zoo"
-EXTENSION_VERSION = "0.0.1.alpha"
-
+from pistarlab.extension_tools import load_extension_meta
+EXT_META = load_extension_meta(__name__)
+EXTENSION_ID = EXT_META["id"]
+EXTENSION_VERSION =  EXT_META["version"]
 
 def make_title(str):
     return str.title().replace("_"," ").replace("."," ")

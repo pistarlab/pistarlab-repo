@@ -6,9 +6,9 @@
   "submitter_id": "default",
   "creation_time": "2021-05-14 10:46:37.085173",
   "meta": {
-    "spec_version": "0.0.1",
+    "spec_version": "0.0.1.dev0",
     "spec_extension_id": "pistarlab-stable-baselines",
-    "spec_extension_version": "0.0.1"
+    "spec_extension_version": "0.0.1.dev0"
   },
   "notes": null,
   "last_checkpoint": {

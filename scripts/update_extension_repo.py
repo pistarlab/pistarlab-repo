@@ -41,8 +41,8 @@ def main(repo_path):
 
         try:
             extension_src_path = os.path.join(src_dir,ext_name)#,project_name.replace("-","_"))
-            if not os.path.exists(os.path.join(extension_src_path,ext_name.replace("-","_"),"pistarlab_extension.json")):
-                print(f"Skipping {ext_name} no pistarlab_extension.json file")
+            if not os.path.exists(os.path.join(extension_src_path,ext_name.replace("-","_"),"extension_meta.json")):
+                print(f"Skipping {ext_name} no extension_meta.json file")
                 continue
 
             extension_package_name = ext_name.replace('-',"_")
@@ -52,7 +52,7 @@ def main(repo_path):
                 manifest_fails.append(ext_name)
             run_command(f"cd {extension_src_path}; rm -rf build dist && python setup.py bdist_wheel && unzip -l dist/*.whl")
             run_command(f"cp {extension_src_path}/dist/* {project_root}/extensions/repo")
-            with open(os.path.join(extension_src_path,extension_package_name,"pistarlab_extension.json"),"r") as f:
+            with open(os.path.join(extension_src_path,extension_package_name,"extension_meta.json"),"r") as f:
                 einfo = json.load(f)
             version = einfo['version']
             key = f"{einfo['id']}--{version}"

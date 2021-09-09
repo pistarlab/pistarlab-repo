@@ -5,7 +5,7 @@
       "displayed_name": "Pettingzoo Classic",
       "description": null,
       "default_entry_point": null,
-      "version": "0.0.1-dev",
+      "version": "0.0.1.dev0",
       "disabled": false,
       "collection": "Petting Zoo",
       "categories": [],
@@ -13,21 +13,18 @@
       "default_config": null,
       "env_specs": [
         {
-          "spec_id": "pettingzoo.classic.chess_v2",
-          "displayed_name": "Pettingzoo Classic Chess V2",
-          "spec_displayed_name": "Pettingzoo Classic Chess V2",
+          "spec_id": "pettingzoo.classic.chess_v4",
+          "displayed_name": "Pettingzoo Classic Chess V4",
+          "spec_displayed_name": "Pettingzoo Classic Chess V4",
           "description": null,
-          "entry_point": "pettingzoo.classic.chess_v2:env",
+          "entry_point": "pettingzoo.classic.chess_v4:env",
           "env_type": "RL_MULTIPLAYER_ENV",
           "tags": [
             "chess"
           ],
           "metadata": {
             "image_filename": null,
-            "render.modes": [
-              "ansi",
-              "human"
-            ],
+            "render.modes": [],
             "render.fps": 30,
             "render_mode": "stdout",
             "render_stats": false,
@@ -61,7 +58,7 @@
                           "values": [
                             8,
                             8,
-                            20
+                            111
                           ]
                         },
                         "low": 0.0,
@@ -102,7 +99,7 @@
                           "values": [
                             8,
                             8,
-                            20
+                            111
                           ]
                         },
                         "low": 0.0,
@@ -162,7 +159,7 @@
       "displayed_name": "Pettingzoo Butterfly",
       "description": null,
       "default_entry_point": null,
-      "version": "0.0.1-dev",
+      "version": "0.0.1.dev0",
       "disabled": false,
       "collection": "Petting Zoo",
       "categories": [],
@@ -170,21 +167,18 @@
       "default_config": null,
       "env_specs": [
         {
-          "spec_id": "pettingzoo.butterfly.cooperative_pong_v2",
-          "displayed_name": "Pettingzoo Butterfly Cooperative Pong V2",
-          "spec_displayed_name": "Pettingzoo Butterfly Cooperative Pong V2",
+          "spec_id": "pettingzoo.butterfly.cooperative_pong_v3",
+          "displayed_name": "Pettingzoo Butterfly Cooperative Pong V3",
+          "spec_displayed_name": "Pettingzoo Butterfly Cooperative Pong V3",
           "description": null,
-          "entry_point": "pettingzoo.butterfly.cooperative_pong_v2:env",
+          "entry_point": "pettingzoo.butterfly.cooperative_pong_v3:env",
           "env_type": "RL_MULTIPLAYER_ENV",
           "tags": [
             "cooperative_pong"
           ],
           "metadata": {
             "image_filename": null,
-            "render.modes": [
-              "rgb_array",
-              "human"
-            ],
+            "render.modes": [],
             "render.fps": 30,
             "render_mode": "rgb_array",
             "render_stats": false,
@@ -197,7 +191,7 @@
                     "__type": "tuple",
                     "values": [
                       280,
-                      240,
+                      480,
                       3
                     ]
                   },
@@ -214,7 +208,7 @@
                     "__type": "tuple",
                     "values": [
                       280,
-                      240,
+                      480,
                       3
                     ]
                   },
@@ -265,21 +259,18 @@
           }
         },
         {
-          "spec_id": "pettingzoo.butterfly.prison_v2",
-          "displayed_name": "Pettingzoo Butterfly Prison V2",
-          "spec_displayed_name": "Pettingzoo Butterfly Prison V2",
+          "spec_id": "pettingzoo.butterfly.prison_v3",
+          "displayed_name": "Pettingzoo Butterfly Prison V3",
+          "spec_displayed_name": "Pettingzoo Butterfly Prison V3",
           "description": null,
-          "entry_point": "pettingzoo.butterfly.prison_v2:env",
+          "entry_point": "pettingzoo.butterfly.prison_v3:env",
           "env_type": "RL_MULTIPLAYER_ENV",
           "tags": [
             "prison"
           ],
           "metadata": {
             "image_filename": null,
-            "render.modes": [
-              "rgb_array",
-              "human"
-            ],
+            "render.modes": [],
             "render.fps": 30,
             "render_mode": "rgb_array",
             "render_stats": false,
@@ -528,7 +519,7 @@
       "displayed_name": "Pettingzoo Sisl",
       "description": null,
       "default_entry_point": null,
-      "version": "0.0.1-dev",
+      "version": "0.0.1.dev0",
       "disabled": false,
       "collection": "Petting Zoo",
       "categories": [],
@@ -536,21 +527,18 @@
       "default_config": null,
       "env_specs": [
         {
-          "spec_id": "pettingzoo.sisl.multiwalker_v6",
-          "displayed_name": "Pettingzoo Sisl Multiwalker V6",
-          "spec_displayed_name": "Pettingzoo Sisl Multiwalker V6",
+          "spec_id": "pettingzoo.sisl.multiwalker_v7",
+          "displayed_name": "Pettingzoo Sisl Multiwalker V7",
+          "spec_displayed_name": "Pettingzoo Sisl Multiwalker V7",
           "description": null,
-          "entry_point": "pettingzoo.sisl.multiwalker_v6:env",
+          "entry_point": "pettingzoo.sisl.multiwalker_v7:env",
           "env_type": "RL_MULTIPLAYER_ENV",
           "tags": [
             "multiwalker"
           ],
           "metadata": {
             "image_filename": null,
-            "render.modes": [
-              "rgb_array",
-              "human"
-            ],
+            "render.modes": [],
             "render.fps": 30,
             "render_mode": "rgb_array",
             "render_stats": false,

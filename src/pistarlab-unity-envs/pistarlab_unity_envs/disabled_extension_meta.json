@@ -1,6 +1,6 @@
 {
     "id": "pistarlab-unity-envs",
-    "version": "0.0.1.alpha",
+    "version": "0.0.1.dev0",
     "name": "Unity Envs",
     "categories": [
         "envs"

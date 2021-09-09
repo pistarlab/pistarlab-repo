@@ -1,7 +1,7 @@
 import logging
 from pistarlab.utils.env_helpers import get_environment_data, get_env_spec_data
 EXTENSION_ID = "pistarlab-multigrid"
-EXTENSION_VERSION = "0.0.1"
+EXTENSION_VERSION = "0.0.1.dev0"
 
 def manifest():
     import gym_multigrid

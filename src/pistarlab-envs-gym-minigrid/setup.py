@@ -6,7 +6,7 @@ manifest_files = [name.replace("pistarlab_envs_gym_minigrid/","",1) for name in 
 
 setup(
     name="pistarlab-envs-gym-minigrid",
-    version="0.0.1",
+    version="0.0.1.dev0",
     author="piSTAR",
     author_email="pistar3.14@gmail.com",
     description="https://github.com/maximecb/gym-minigrid",

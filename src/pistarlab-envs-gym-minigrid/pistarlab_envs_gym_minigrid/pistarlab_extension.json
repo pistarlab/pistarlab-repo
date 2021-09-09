@@ -1,6 +1,6 @@
 {
   "id": "pistarlab-envs-gym-minigrid",
-  "version": "0.0.1",
+  "version": "0.0.1.dev0",
   "name": "MiniGrid",
   "categories": ["envs"],
   "description": "Minimalistic Gridworld Environment: https://github.com/maximecb/gym-minigrid",

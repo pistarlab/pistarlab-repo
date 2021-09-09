@@ -4,8 +4,10 @@ import logging
 from pistarlab import ctx
 from pistarlab.meta import RL_MULTIPLAYER_ENV, RL_SINGLEPLAYER_ENV
 
-EXTENSION_ID = "pistarlab-unity-envs"
-EXTENSION_VERSION = "0.0.1"
+from pistarlab.extension_tools import load_extension_meta
+EXT_META = load_extension_meta(__name__)
+EXTENSION_ID = EXT_META["id"]
+EXTENSION_VERSION =  EXT_META["version"]
 
 
 def get_env_specs():
