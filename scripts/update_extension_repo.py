@@ -14,7 +14,7 @@ def run_command(cmd,fail_ok=False):
         if not fail_ok:
             raise e
 
-def main(repo_path):
+def main(repo_path, skip_manifest_build=False):
     
     project_root = os.path.abspath(Path(__file__).parent.parent)
 
@@ -46,10 +46,11 @@ def main(repo_path):
                 continue
 
             extension_package_name = ext_name.replace('-',"_")
-            try:
-                run_command(f"pistarlab_extension_tools --action=save_manifest --extension_path {extension_src_path}",fail_ok=False)
-            except Exception as e:
-                manifest_fails.append(ext_name)
+            if not skip_manifest_build:
+                try:
+                    run_command(f"pistarlab_extension_tools --action=save_manifest --extension_path {extension_src_path}",fail_ok=False)
+                except Exception as e:
+                    manifest_fails.append(ext_name)
             run_command(f"cd {extension_src_path}; rm -rf build dist && python setup.py bdist_wheel && unzip -l dist/*.whl")
             run_command(f"cp {extension_src_path}/dist/* {project_root}/extensions/repo")
             with open(os.path.join(extension_src_path,extension_package_name,"extension_meta.json"),"r") as f:
@@ -78,7 +79,8 @@ def main(repo_path):
     print("")
     print(f"Extensioned processed successfully: {successful_additions}")
     print("")
-    print(f"Failed manifest runs for (this might be ok, depends on the extension): {manifest_fails}")
+    if not skip_manifest_build:
+        print(f"Failed manifest runs for (this might be ok, depends on the extension): {manifest_fails}")
 
 
         
@@ -87,7 +89,9 @@ def main(repo_path):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--repo_index", required=True , help="Path to repo index")
+    parser.add_argument("--skip_manifest_build",
+                        action="store_true", help="Skip building manifest ")
     args = parser.parse_args()
 
-    main(args.repo_index)
+    main(args.repo_index,args.skip_manifest_build)
 
