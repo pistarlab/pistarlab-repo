@@ -17,14 +17,20 @@
           "displayed_name": "MiniGrid-Empty-5x5-v0",
           "spec_displayed_name": "MiniGrid-Empty-5x5-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -86,14 +92,20 @@
           "displayed_name": "MiniGrid-Empty-Random-5x5-v0",
           "spec_displayed_name": "MiniGrid-Empty-Random-5x5-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -155,14 +167,20 @@
           "displayed_name": "MiniGrid-Empty-6x6-v0",
           "spec_displayed_name": "MiniGrid-Empty-6x6-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -224,14 +242,20 @@
           "displayed_name": "MiniGrid-Empty-Random-6x6-v0",
           "spec_displayed_name": "MiniGrid-Empty-Random-6x6-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -293,14 +317,20 @@
           "displayed_name": "MiniGrid-Empty-8x8-v0",
           "spec_displayed_name": "MiniGrid-Empty-8x8-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -362,14 +392,20 @@
           "displayed_name": "MiniGrid-Empty-16x16-v0",
           "spec_displayed_name": "MiniGrid-Empty-16x16-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -431,14 +467,20 @@
           "displayed_name": "MiniGrid-DoorKey-5x5-v0",
           "spec_displayed_name": "MiniGrid-DoorKey-5x5-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -500,14 +542,20 @@
           "displayed_name": "MiniGrid-DoorKey-6x6-v0",
           "spec_displayed_name": "MiniGrid-DoorKey-6x6-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -569,14 +617,20 @@
           "displayed_name": "MiniGrid-DoorKey-8x8-v0",
           "spec_displayed_name": "MiniGrid-DoorKey-8x8-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -638,14 +692,20 @@
           "displayed_name": "MiniGrid-DoorKey-16x16-v0",
           "spec_displayed_name": "MiniGrid-DoorKey-16x16-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -707,14 +767,20 @@
           "displayed_name": "MiniGrid-MultiRoom-N2-S4-v0",
           "spec_displayed_name": "MiniGrid-MultiRoom-N2-S4-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -776,14 +842,20 @@
           "displayed_name": "MiniGrid-MultiRoom-N4-S5-v0",
           "spec_displayed_name": "MiniGrid-MultiRoom-N4-S5-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -845,14 +917,20 @@
           "displayed_name": "MiniGrid-MultiRoom-N6-v0",
           "spec_displayed_name": "MiniGrid-MultiRoom-N6-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -914,14 +992,20 @@
           "displayed_name": "MiniGrid-Fetch-5x5-N2-v0",
           "spec_displayed_name": "MiniGrid-Fetch-5x5-N2-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -983,14 +1067,20 @@
           "displayed_name": "MiniGrid-Fetch-6x6-N2-v0",
           "spec_displayed_name": "MiniGrid-Fetch-6x6-N2-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1052,14 +1142,20 @@
           "displayed_name": "MiniGrid-Fetch-8x8-N3-v0",
           "spec_displayed_name": "MiniGrid-Fetch-8x8-N3-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1121,14 +1217,20 @@
           "displayed_name": "MiniGrid-GoToObject-6x6-N2-v0",
           "spec_displayed_name": "MiniGrid-GoToObject-6x6-N2-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1190,14 +1292,20 @@
           "displayed_name": "MiniGrid-GoToObject-8x8-N2-v0",
           "spec_displayed_name": "MiniGrid-GoToObject-8x8-N2-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1259,14 +1367,20 @@
           "displayed_name": "MiniGrid-GoToDoor-5x5-v0",
           "spec_displayed_name": "MiniGrid-GoToDoor-5x5-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1328,14 +1442,20 @@
           "displayed_name": "MiniGrid-GoToDoor-6x6-v0",
           "spec_displayed_name": "MiniGrid-GoToDoor-6x6-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1397,14 +1517,20 @@
           "displayed_name": "MiniGrid-GoToDoor-8x8-v0",
           "spec_displayed_name": "MiniGrid-GoToDoor-8x8-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1466,14 +1592,20 @@
           "displayed_name": "MiniGrid-PutNear-6x6-N2-v0",
           "spec_displayed_name": "MiniGrid-PutNear-6x6-N2-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1535,14 +1667,20 @@
           "displayed_name": "MiniGrid-PutNear-8x8-N3-v0",
           "spec_displayed_name": "MiniGrid-PutNear-8x8-N3-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1604,14 +1742,20 @@
           "displayed_name": "MiniGrid-LockedRoom-v0",
           "spec_displayed_name": "MiniGrid-LockedRoom-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1673,14 +1817,20 @@
           "displayed_name": "MiniGrid-KeyCorridorS3R1-v0",
           "spec_displayed_name": "MiniGrid-KeyCorridorS3R1-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1742,14 +1892,20 @@
           "displayed_name": "MiniGrid-KeyCorridorS3R2-v0",
           "spec_displayed_name": "MiniGrid-KeyCorridorS3R2-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1811,14 +1967,20 @@
           "displayed_name": "MiniGrid-KeyCorridorS3R3-v0",
           "spec_displayed_name": "MiniGrid-KeyCorridorS3R3-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1880,14 +2042,20 @@
           "displayed_name": "MiniGrid-KeyCorridorS4R3-v0",
           "spec_displayed_name": "MiniGrid-KeyCorridorS4R3-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -1949,14 +2117,20 @@
           "displayed_name": "MiniGrid-KeyCorridorS5R3-v0",
           "spec_displayed_name": "MiniGrid-KeyCorridorS5R3-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2018,14 +2192,20 @@
           "displayed_name": "MiniGrid-KeyCorridorS6R3-v0",
           "spec_displayed_name": "MiniGrid-KeyCorridorS6R3-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2087,14 +2267,20 @@
           "displayed_name": "MiniGrid-Unlock-v0",
           "spec_displayed_name": "MiniGrid-Unlock-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2156,14 +2342,20 @@
           "displayed_name": "MiniGrid-UnlockPickup-v0",
           "spec_displayed_name": "MiniGrid-UnlockPickup-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2225,14 +2417,20 @@
           "displayed_name": "MiniGrid-BlockedUnlockPickup-v0",
           "spec_displayed_name": "MiniGrid-BlockedUnlockPickup-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2294,14 +2492,20 @@
           "displayed_name": "MiniGrid-Playground-v0",
           "spec_displayed_name": "MiniGrid-Playground-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2363,14 +2567,20 @@
           "displayed_name": "MiniGrid-RedBlueDoors-6x6-v0",
           "spec_displayed_name": "MiniGrid-RedBlueDoors-6x6-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2432,14 +2642,20 @@
           "displayed_name": "MiniGrid-RedBlueDoors-8x8-v0",
           "spec_displayed_name": "MiniGrid-RedBlueDoors-8x8-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2501,14 +2717,20 @@
           "displayed_name": "MiniGrid-ObstructedMaze-1Dl-v0",
           "spec_displayed_name": "MiniGrid-ObstructedMaze-1Dl-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2570,14 +2792,20 @@
           "displayed_name": "MiniGrid-ObstructedMaze-1Dlh-v0",
           "spec_displayed_name": "MiniGrid-ObstructedMaze-1Dlh-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2639,14 +2867,20 @@
           "displayed_name": "MiniGrid-ObstructedMaze-1Dlhb-v0",
           "spec_displayed_name": "MiniGrid-ObstructedMaze-1Dlhb-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2708,14 +2942,20 @@
           "displayed_name": "MiniGrid-ObstructedMaze-2Dl-v0",
           "spec_displayed_name": "MiniGrid-ObstructedMaze-2Dl-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2777,14 +3017,20 @@
           "displayed_name": "MiniGrid-ObstructedMaze-2Dlh-v0",
           "spec_displayed_name": "MiniGrid-ObstructedMaze-2Dlh-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2846,14 +3092,20 @@
           "displayed_name": "MiniGrid-ObstructedMaze-2Dlhb-v0",
           "spec_displayed_name": "MiniGrid-ObstructedMaze-2Dlhb-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2915,14 +3167,20 @@
           "displayed_name": "MiniGrid-ObstructedMaze-1Q-v0",
           "spec_displayed_name": "MiniGrid-ObstructedMaze-1Q-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -2984,14 +3242,20 @@
           "displayed_name": "MiniGrid-ObstructedMaze-2Q-v0",
           "spec_displayed_name": "MiniGrid-ObstructedMaze-2Q-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3053,14 +3317,20 @@
           "displayed_name": "MiniGrid-ObstructedMaze-Full-v0",
           "spec_displayed_name": "MiniGrid-ObstructedMaze-Full-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3122,14 +3392,20 @@
           "displayed_name": "MiniGrid-MemoryS17Random-v0",
           "spec_displayed_name": "MiniGrid-MemoryS17Random-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3191,14 +3467,20 @@
           "displayed_name": "MiniGrid-MemoryS13Random-v0",
           "spec_displayed_name": "MiniGrid-MemoryS13Random-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3260,14 +3542,20 @@
           "displayed_name": "MiniGrid-MemoryS13-v0",
           "spec_displayed_name": "MiniGrid-MemoryS13-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3329,14 +3617,20 @@
           "displayed_name": "MiniGrid-MemoryS11-v0",
           "spec_displayed_name": "MiniGrid-MemoryS11-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3398,14 +3692,20 @@
           "displayed_name": "MiniGrid-MemoryS9-v0",
           "spec_displayed_name": "MiniGrid-MemoryS9-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3467,14 +3767,20 @@
           "displayed_name": "MiniGrid-MemoryS7-v0",
           "spec_displayed_name": "MiniGrid-MemoryS7-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3536,14 +3842,20 @@
           "displayed_name": "MiniGrid-FourRooms-v0",
           "spec_displayed_name": "MiniGrid-FourRooms-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3605,14 +3917,20 @@
           "displayed_name": "MiniGrid-LavaCrossingS9N1-v0",
           "spec_displayed_name": "MiniGrid-LavaCrossingS9N1-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3674,14 +3992,20 @@
           "displayed_name": "MiniGrid-LavaCrossingS9N2-v0",
           "spec_displayed_name": "MiniGrid-LavaCrossingS9N2-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3743,14 +4067,20 @@
           "displayed_name": "MiniGrid-LavaCrossingS9N3-v0",
           "spec_displayed_name": "MiniGrid-LavaCrossingS9N3-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3812,14 +4142,20 @@
           "displayed_name": "MiniGrid-LavaCrossingS11N5-v0",
           "spec_displayed_name": "MiniGrid-LavaCrossingS11N5-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3881,14 +4217,20 @@
           "displayed_name": "MiniGrid-SimpleCrossingS9N1-v0",
           "spec_displayed_name": "MiniGrid-SimpleCrossingS9N1-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -3950,14 +4292,20 @@
           "displayed_name": "MiniGrid-SimpleCrossingS9N2-v0",
           "spec_displayed_name": "MiniGrid-SimpleCrossingS9N2-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4019,14 +4367,20 @@
           "displayed_name": "MiniGrid-SimpleCrossingS9N3-v0",
           "spec_displayed_name": "MiniGrid-SimpleCrossingS9N3-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4088,14 +4442,20 @@
           "displayed_name": "MiniGrid-SimpleCrossingS11N5-v0",
           "spec_displayed_name": "MiniGrid-SimpleCrossingS11N5-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4157,14 +4517,20 @@
           "displayed_name": "MiniGrid-LavaGapS5-v0",
           "spec_displayed_name": "MiniGrid-LavaGapS5-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4226,14 +4592,20 @@
           "displayed_name": "MiniGrid-LavaGapS6-v0",
           "spec_displayed_name": "MiniGrid-LavaGapS6-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4295,14 +4667,20 @@
           "displayed_name": "MiniGrid-LavaGapS7-v0",
           "spec_displayed_name": "MiniGrid-LavaGapS7-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4364,14 +4742,20 @@
           "displayed_name": "MiniGrid-Dynamic-Obstacles-5x5-v0",
           "spec_displayed_name": "MiniGrid-Dynamic-Obstacles-5x5-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4433,14 +4817,20 @@
           "displayed_name": "MiniGrid-Dynamic-Obstacles-Random-5x5-v0",
           "spec_displayed_name": "MiniGrid-Dynamic-Obstacles-Random-5x5-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4502,14 +4892,20 @@
           "displayed_name": "MiniGrid-Dynamic-Obstacles-6x6-v0",
           "spec_displayed_name": "MiniGrid-Dynamic-Obstacles-6x6-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4571,14 +4967,20 @@
           "displayed_name": "MiniGrid-Dynamic-Obstacles-Random-6x6-v0",
           "spec_displayed_name": "MiniGrid-Dynamic-Obstacles-Random-6x6-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4640,14 +5042,20 @@
           "displayed_name": "MiniGrid-Dynamic-Obstacles-8x8-v0",
           "spec_displayed_name": "MiniGrid-Dynamic-Obstacles-8x8-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4709,14 +5117,20 @@
           "displayed_name": "MiniGrid-Dynamic-Obstacles-16x16-v0",
           "spec_displayed_name": "MiniGrid-Dynamic-Obstacles-16x16-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4778,14 +5192,20 @@
           "displayed_name": "MiniGrid-DistShift1-v0",
           "spec_displayed_name": "MiniGrid-DistShift1-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4847,14 +5267,20 @@
           "displayed_name": "MiniGrid-DistShift2-v0",
           "spec_displayed_name": "MiniGrid-DistShift2-v0",
           "description": null,
+          "usage": null,
           "entry_point": "pistarlab.utils.gym_importer:gym_make",
+          "human_entry_point": null,
+          "human_config": {
+            "env_kwargs": {}
+          },
+          "human_description": null,
           "env_type": "RL_SINGLEPLAYER_ENV",
           "tags": [],
           "metadata": {
             "image_filename": null,
             "render.modes": [
-              "rgb_array",
-              "human"
+              "human",
+              "rgb_array"
             ],
             "video.frames_per_second": 10,
             "render.fps": 30,
@@ -4911,7 +5337,8 @@
             ]
           }
         }
-      ]
+      ],
+      "usage": null
     }
   ]
 }

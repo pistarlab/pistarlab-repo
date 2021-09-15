@@ -43,7 +43,7 @@ def get_agent_specs():
             components=None,
             interfaces={'run':get_agent_spec_interface_dict()},
             params=data.get("params"),
-            algo_type_id=data.get("algo_type_id"),
+            algo_type_ids=data.get("algo_type_ids"),
             disabled=False,
             displayed_name="{} - Stable Baselines".format(policy_name),
             version="0.0.1.dev0",
