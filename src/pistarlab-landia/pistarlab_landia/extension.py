@@ -52,7 +52,8 @@ def get_env_specs():
                     "main": {"static_layers": ['ctf_map_1.txt']}
                 }
 
-            }},
+            },
+            "config_filename": "ctf.json"},
         entry_point="landia.env:LandiaEnv",
         default_render_mode='rgb_array',
         default_wrappers=[])
@@ -70,12 +71,10 @@ def get_env_specs():
             "resolution": (42, 42),
             "port": 10001,
             "content_overrides": {
-                'active_controllers': ["pspawn", "foodcollect", "objcollision"],
-                "maps": {
-                    "main": {"static_layers": ['map_9x9_vwall.txt']}
-                }
-
-            }},
+                             
+            },
+            "config_filename": "forager.json"
+            },
         entry_point="landia.env:LandiaEnv",
         default_render_mode='rgb_array',
         default_wrappers=[])
@@ -92,11 +91,8 @@ def get_env_specs():
             "hostname": "localhost",
             "resolution": (42, 42),
             "port": 10001,
-            "content_overrides": {
-                'active_controllers': ["pspawn", "objcollision", "infect1"],
-                "maps": {
-                    "main": {"static_layers": ['map_9x9_vwall.txt']}
-                }}
+            "content_overrides": {},
+            "config_filename": "infection.json"
         },
 
         entry_point="landia.env:LandiaEnv",
@@ -104,27 +100,27 @@ def get_env_specs():
         default_wrappers=[])
     spec_list.append(spec)
 
-    spec = get_env_spec_data(
-        displayed_name="Landia: Tag",
-        spec_displayed_name="Tag",
-        spec_id='landia_tag',
-        env_type=RL_MULTIPLAYER_ENV,
-        env_kwargs={
-            "remote_client": False,
-            "tick_rate": 0,
-            "hostname": "localhost",
-            "resolution": (42, 42),
-            "port": 10001,
-            "content_overrides": {
-                'active_controllers': ["pspawn", "objcollision", "tag1"],
-                "maps": {
-                    "main": {"static_layers": ['map_8x8_empty.txt']}
-                }
-            }},
-        entry_point="landia.env:LandiaEnv",
-        default_render_mode='rgb_array',
-        default_wrappers=[])
-    spec_list.append(spec)
+    # spec = get_env_spec_data(
+    #     displayed_name="Landia: Tag",
+    #     spec_displayed_name="Tag",
+    #     spec_id='landia_tag',
+    #     env_type=RL_MULTIPLAYER_ENV,
+    #     env_kwargs={
+    #         "remote_client": False,
+    #         "tick_rate": 0,
+    #         "hostname": "localhost",
+    #         "resolution": (42, 42),
+    #         "port": 10001,
+    #         "content_overrides": {
+    #             'active_controllers': ["pspawn", "objcollision", "tag1"],
+    #             "maps": {
+    #                 "main": {"static_layers": ['map_8x8_empty.txt']}
+    #             }
+    #         }},
+    #     entry_point="landia.env:LandiaEnv",
+    #     default_render_mode='rgb_array',
+    #     default_wrappers=[])
+    # spec_list.append(spec)
 
     return spec_list
 

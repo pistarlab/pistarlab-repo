@@ -189,7 +189,8 @@
                     ]
                   }
                 }
-              }
+              },
+              "config_filename": "ctf.json"
             },
             "default_wrappers": []
           }
@@ -284,20 +285,8 @@
                 42
               ],
               "port": 10001,
-              "content_overrides": {
-                "active_controllers": [
-                  "pspawn",
-                  "foodcollect",
-                  "objcollision"
-                ],
-                "maps": {
-                  "main": {
-                    "static_layers": [
-                      "map_9x9_vwall.txt"
-                    ]
-                  }
-                }
-              }
+              "content_overrides": {},
+              "config_filename": "forager.json"
             },
             "default_wrappers": []
           }
@@ -392,128 +381,8 @@
                 42
               ],
               "port": 10001,
-              "content_overrides": {
-                "active_controllers": [
-                  "pspawn",
-                  "objcollision",
-                  "infect1"
-                ],
-                "maps": {
-                  "main": {
-                    "static_layers": [
-                      "map_9x9_vwall.txt"
-                    ]
-                  }
-                }
-              }
-            },
-            "default_wrappers": []
-          }
-        },
-        {
-          "spec_id": "landia_tag",
-          "displayed_name": "Landia: Tag",
-          "spec_displayed_name": "Tag",
-          "description": null,
-          "entry_point": "landia.env:LandiaEnv",
-          "env_type": "RL_MULTIPLAYER_ENV",
-          "tags": [],
-          "metadata": {
-            "image_filename": null,
-            "render.modes": [],
-            "render.fps": 30,
-            "render_mode": "rgb_array",
-            "render_stats": false,
-            "observation_spaces": {
-              "1": {
-                "class_name": "Box",
-                "module": "gym.spaces.box",
-                "kwargs": {
-                  "shape": {
-                    "__type": "tuple",
-                    "values": [
-                      42,
-                      42,
-                      3
-                    ]
-                  },
-                  "low": 0.0,
-                  "high": 255.0
-                },
-                "args": []
-              },
-              "2": {
-                "class_name": "Box",
-                "module": "gym.spaces.box",
-                "kwargs": {
-                  "shape": {
-                    "__type": "tuple",
-                    "values": [
-                      42,
-                      42,
-                      3
-                    ]
-                  },
-                  "low": 0.0,
-                  "high": 255.0
-                },
-                "args": []
-              }
-            },
-            "action_spaces": {
-              "1": {
-                "class_name": "Discrete",
-                "module": "gym.spaces.discrete",
-                "kwargs": {},
-                "args": [
-                  11
-                ]
-              },
-              "2": {
-                "class_name": "Discrete",
-                "module": "gym.spaces.discrete",
-                "kwargs": {},
-                "args": [
-                  11
-                ]
-              }
-            },
-            "num_players": 2,
-            "max_num_players": 2,
-            "players": [
-              "1",
-              "2"
-            ],
-            "possible_players": [
-              "1",
-              "2"
-            ]
-          },
-          "config": {
-            "default_render_mode": "rgb_array",
-            "env_kwargs": {
-              "remote_client": false,
-              "tick_rate": 0,
-              "hostname": "localhost",
-              "resolution": [
-                42,
-                42
-              ],
-              "port": 10001,
-              "content_overrides": {
-                "active_controllers": [
-                  "pspawn",
-                  "objcollision",
-                  "tag1"
-                ],
-                "maps": {
-                  "main": {
-                    "static_layers": [
-                      "map_8x8_empty.txt"
-                    ]
-                  }
-                }
-              }
+              "content_overrides": {},
+              "config_filename": "infection.json"
             },
             "default_wrappers": []
           }
