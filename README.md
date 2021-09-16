@@ -17,8 +17,6 @@ We suggest using piSTAR Lab to create your extension.
 - a pistarlab_extension.json metadata file is required inside your python packages
 - see an existing extension for more details.
 
-## Local Testing
-TODO
 
 ## Deploying Extensions to Repo
 
